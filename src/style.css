@@ -1,8 +1,7 @@
 /*common breakpoints-pesquisar sobre mediaqueries */
 * {
     margin: 0;
-    padding:0;
-    
+    padding:0;    
 }
 
 
@@ -14,32 +13,16 @@
     background-image: url(background.jpg);
     background-color: #0A1823;
     background-size: fill;    
-    /*display:flex;    
-    flex-direction: column;
-    justify-content: space-around;    
+    display:flex;    
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: wrap;  */
     margin: auto;
     padding: auto;
     border: red 10px solid;
     
 }
 
-/*.flex-container {
-    width: 80vw;
-    height: 80vw;
-    margin: auto;
-    border: green 10px solid;
-    display:flex; 
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;     
-
-}
-*/
 
 .header-container { /*contém os botões: início, sobre e na mídia*/
     margin: 0px;
@@ -66,8 +49,12 @@
 }
 
 .rick-img {
-    height: 300px; /*Alterei altura e largura para a imagem ir ajustando conforme a tela for diminuindo, tbm especifiquei abaixo no media queries*/ 
-    width: 100%;       
+    height: 35vh; /*Alterei altura e largura para a imagem ir ajustando conforme a tela for diminuindo, tbm especifiquei abaixo no media queries*/ 
+    width: 50vw;      
+    border: rgb(250, 233, 1) 10px solid;
+    padding: 0;
+    margin: 0 0;
+     
 }
 
 .img-container {
@@ -75,8 +62,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0px;
-    padding:0px;
+    margin: 0 0 auto;
+    padding: 0 0;
+    border: rgb(241, 61, 6) 10px solid;
+    width: 60vw;
+    height: 40vh;
 }
 
 .btn-option {
@@ -116,7 +106,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: rgb(219, 158, 17) 10px solid;
+    border: #B2DF28 10px solid;
 }
 
 .option-container {
