@@ -44,7 +44,11 @@ body {
 }
 
 .footer-container {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .name {
