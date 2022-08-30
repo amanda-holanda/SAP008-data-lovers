@@ -3,9 +3,9 @@
     padding:0;
 }
 
-.body-container {    
+body {    
     color: #0A1823;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: monospace;
     background-image: url(background.jpg);
     background-color: #0A1823;
     background-size: fill;
@@ -16,13 +16,14 @@
     
 }
 
-.header-container { 
+header { 
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
+    font-family: monospace;
 }
 
 .nav {
@@ -37,8 +38,7 @@
     border: none;
     color: #0A1823;
     width: 12vw; 
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;   
+    height: 40px;     
     font-size: large; 
     cursor: pointer;
 }
@@ -56,8 +56,7 @@
     width: 10vw;
     height: 40px;
     margin: 0px 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-    font-size: medium;
+    font-size: 10pt;
     text-align: center;   
     cursor: pointer;
 }
@@ -69,13 +68,12 @@
     color: #0A1823;
     width: 10vw;
     height: 40px;
-    margin: 0px 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    margin: 0px 7px;     
     font-size: medium;
     text-align: center;   
 }
 
-.main-container {     
+main {     
     background-color: #0A1823;
     border-radius: 40px;
     display: flex;
@@ -93,7 +91,8 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    padding: 10px;        
+    padding: 10px;
+    font-family: monospace;            
 }
 
 .percentage-container {
@@ -105,6 +104,7 @@
     justify-content: center;
     align-items: center;
     color:#B2DF28 ;
+    font-size: large;
 }
 
 .card-container {
@@ -127,7 +127,7 @@
     justify-content: flex-start;                      
     text-align: center;
     align-items: center;
-    font-size: 12pt;
+    font-size: 10pt;
     color:#0A1823;    
 }
 
@@ -140,18 +140,26 @@
     object-fit: cover;
 }
 
-.footer-container {
+footer {
+    color: aliceblue;
+    font-size: 12pt;      
     margin: 100px 0 auto;
-    padding: 10px 10px;
-    background-color: #0A1823;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    width: 100vw;
+    padding: 10px 10px;    
+    width: 100%;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.name {
+    color: rgb(104, 224, 44);
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.name:hover {
+    opacity: 0.5;
 }
 
 /* ===== Responsividade para dispositivos móveis ===== */
@@ -161,12 +169,12 @@
     .btn-option {
         width: 25vw;
         margin: 8px 0px;
-        font-size: smaller;
+        font-size: 9pt;
     }
 
     .btn-search {
         width: 25vw;
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .btn-header {
@@ -177,7 +185,7 @@
     .card {
         height: 64vh;
         width: 45vw;
-        font-size: 12pt;
+        font-size: 10pt;
         padding: 2vh 1vw;
     }
 
@@ -191,8 +199,15 @@
         height: auto;
     }
 
-    .main-container {
+    main {
         width: 100%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
     }
 }
 
@@ -218,7 +233,7 @@
     .card {
         height: 34vh;
         width: 37vw;
-        font-size: 11pt;        
+        font-size: 9pt;        
     }
 
     .poster-img {
@@ -230,8 +245,15 @@
         width: 80vw;
     }
 
-    .main-container {
+    main{
         width: 95%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
     }
 }
 
@@ -246,7 +268,7 @@
     .btn-option {
         width: 15vw;
         margin: 0px 7px;
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     .btn-option.reset {
@@ -255,15 +277,15 @@
     }
 
     .btn-search {
-        width: 12vw;
+        width: 13vw;
         margin: 0px 7px;
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     .card {
         height: 29vh;
         width: 24vw;
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .poster-img {
@@ -271,7 +293,7 @@
         width: 21vw;
     }
 
-    .main-container {
+    main{
         width: 95%;
     }
 
@@ -280,7 +302,7 @@
     }
 }
 
-/*Acima de 1024px já será considerado Desktops e telas grandes*/
+
  
 
 
