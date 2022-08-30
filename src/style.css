@@ -119,7 +119,7 @@
     height: 44vh;
     width: 16vw;
     margin: 20px;
-    padding: 6px 3px;    
+    padding: 2vh 1vw;    
     border-radius: 50px;
     background-color: #B2DF28;  
     display: flex;  
@@ -133,7 +133,8 @@
 
 .poster-img {
     height: 25vh;
-    width: 14vw;    
+    width: 15vw;    
+    margin-bottom: 2vh;
     border-radius: 50px;
     border: #0A1823 2px solid;
     object-fit: cover;
@@ -176,13 +177,13 @@
         height: 64vh;
         width: 45vw;
         font-size: 12pt;
-        padding: 5px 6px;
+        padding: 2vh 1vw;
     }
 
     .poster-img {
         height: 38vh;
-        width: 40vw;
-    }
+        width: 40vw;        
+    }    
 
     .rick-img {
         width: 80vw;
@@ -214,13 +215,13 @@
     
     .card {
         height: 34vh;
-        width: 34vw;
-        font-size: 11pt;
+        width: 37vw;
+        font-size: 11pt;        
     }
 
     .poster-img {
-        height: 20vw;
-        width: 29vw;
+        height: 29vw;
+        width: 30vw;
     }
 
     .rick-img {
@@ -253,7 +254,7 @@
 
     .card {
         height: 29vh;
-        width: 23vw;
+        width: 24vw;
         font-size: 12pt;
     }
 
