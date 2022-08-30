@@ -229,13 +229,22 @@ footer {
 @media screen and (min-width: 481px) and (max-width: 768px) { 
 
     .btn-option {
-        width: 28vw;
+        width: 29vw;
         margin: 8px 2px;
         font-size: 11pt;
     }
 
+    .reset {
+        width: 23vw;
+    }
+
     .btn-search {
         width: 28vw;
+    }
+
+    .percentage-container {
+        width: 90%;
+
     }
     
     .btn-header {
