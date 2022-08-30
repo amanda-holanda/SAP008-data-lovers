@@ -5,7 +5,7 @@
 
 .body-container {    
     color: #0A1823;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: monospace;
     background-image: url(background.jpg);
     background-color: #0A1823;
     background-size: fill;
@@ -23,6 +23,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     width: 100%;
+    font-family: monospace;
 }
 
 .nav {
@@ -37,8 +38,7 @@
     border: none;
     color: #0A1823;
     width: 12vw; 
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;   
+    height: 40px;     
     font-size: large; 
     cursor: pointer;
 }
@@ -56,8 +56,7 @@
     width: 10vw;
     height: 40px;
     margin: 0px 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-    font-size: medium;
+    font-size: 10pt;
     text-align: center;   
     cursor: pointer;
 }
@@ -69,8 +68,7 @@
     color: #0A1823;
     width: 10vw;
     height: 40px;
-    margin: 0px 7px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+    margin: 0px 7px;     
     font-size: medium;
     text-align: center;   
 }
@@ -93,7 +91,8 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    padding: 10px;        
+    padding: 10px;
+    font-family: monospace;            
 }
 
 .percentage-container {
@@ -105,6 +104,7 @@
     justify-content: center;
     align-items: center;
     color:#B2DF28 ;
+    font-size: large;
 }
 
 .card-container {
@@ -127,7 +127,7 @@
     justify-content: flex-start;                      
     text-align: center;
     align-items: center;
-    font-size: 12pt;
+    font-size: 10pt;
     color:#0A1823;    
 }
 
@@ -161,12 +161,12 @@
     .btn-option {
         width: 25vw;
         margin: 8px 0px;
-        font-size: smaller;
+        font-size: 9pt;
     }
 
     .btn-search {
         width: 25vw;
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .btn-header {
@@ -177,7 +177,7 @@
     .card {
         height: 64vh;
         width: 45vw;
-        font-size: 12pt;
+        font-size: 10pt;
         padding: 2vh 1vw;
     }
 
@@ -218,7 +218,7 @@
     .card {
         height: 34vh;
         width: 37vw;
-        font-size: 11pt;        
+        font-size: 9pt;        
     }
 
     .poster-img {
@@ -246,7 +246,7 @@
     .btn-option {
         width: 15vw;
         margin: 0px 7px;
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     .btn-option.reset {
@@ -255,15 +255,15 @@
     }
 
     .btn-search {
-        width: 12vw;
+        width: 13vw;
         margin: 0px 7px;
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     .card {
         height: 29vh;
         width: 24vw;
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .poster-img {
