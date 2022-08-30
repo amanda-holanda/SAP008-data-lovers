@@ -1,97 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Data Lovers</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="inicio.css" />
 </head>
 
-<body class="body-container">
+<body>
+    <main class="main-inicio">
 
-  <header class="header-container">
-    <nav class="nav">
-      <button class="btn-header">INÍCIO</button>
-      <button class="btn-header">SOBRE</button>
-      <button class="btn-header">NA MÍDIA</button>
-    </nav>
-    <img class="rick-img" src="rick-and-morty.png" alt="rick and morty image">
-  </header>
+        <section class="introduction">
+            <h1>Sejam bem-vindas terráqueas!</h1>
+            <p>"Rick & Morty é uma série animada de comédia que mostra as aventuras interdimensionais de Rick, 
+                a mente mais brilhante da galáxia, e seu neto Morty.
+                Com sua arma capaz de criar portais para viajar no tempo-espaço, 
+                Rick leva Morty para explorar todos as absurdas formas de vida que o universo é capaz de sustentar."
+            </br>
+                Para juntar-se a eles, clique na imagem abaixo e entre no portal:
+            </p>
+        </section>
 
-  <main class="main-container">
+        <a href="inicio.html">
+            <img class="portal-inicio" alt="Portal interdimensional de Rick and Morty" src="portal.png">
+        </a>
+    </main>
 
-    <div class="option-container">
-      <label>
-        <select id="select-status" class="btn-option">
-          <option value="" selected disabled hidden>STATUS</option>
-          <option value="alive">VIVO</option>
-          <option value="dead">MORTO</option>
-          <option value="unknown">DESCONHECIDO</option>
-        </select>
-      </label>
+    <footer class="footer-container">
+        <p class="footer-text">Desenvolvido por
+            <a href="https://www.linkedin.com/in/amandaholanda/">
+                <span class="name">Amanda Holanda</span></a>
+            e
+            <a href="https://www.linkedin.com/in/angellmelo/">
+                <span class="name">Angélica Melo</span></a>
 
-      <label>
-        <select id="select-species" class="btn-option">
-          <option value="" selected disabled hidden>ESPÉCIE</option>
-          <option value="human">HUMANO</option>
-          <option value="alien">ALIENÍGENA</option>
-          <option value="unknown">DESCONHECIDO</option>
-        </select>
-      </label>
+    </footer>
 
-      <label>
-        <select id="select-gender" class="btn-option">
-          <option value="" selected disabled hidden>GÊNERO</option>
-          <option value="male">MASCULINO</option>
-          <option value="female">FEMININO</option>
-          <option value="unknown">DESCONHECIDO</option>
-        </select>
-      </label>
-
-      <label>
-        <select id="select-order" class="btn-option">
-          <option value="" selected disabled hidden>ORDENAR</option>
-          <option value="ascending" id="ascending">A-Z</option>
-          <option value="descending" id="descending">Z-A</option>
-        </select>
-      </label>
-
-      <label>
-        <button id="reset" class="btn-option">LIMPAR
-        </button>
-      </label>
-
-      <label>
-
-        <input type="text" id="btn-search" class="btn-search" placeholder="buscar por nome">
-
-      </label>
-
-    </div>
-
-    <div class="percentage-container" id="percentage-container">
-      <strong>
-        <p class="percentage" id="percentage"></p>
-      </strong>
-    </div>
-
-    <div class="card-container" id="card-container">
-    </div>
-
-  </main>
-
-
-  <footer class="footer-container">
-    <address>
-      <p class="footer-text">Desenvolvido por Amanda Holanda e Angelica Melo</p>
-    </address>
-
-  </footer>
-
-
-
-
-  <script src="main.js" type="module"></script>
 
 </body>
 
