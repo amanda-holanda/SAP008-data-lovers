@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-  }
+}
 
 body { 
     background-image: url("background.jpg");
@@ -38,14 +38,10 @@ body {
     width: 35vw;
 }
 
-.footer-text {
+footer {
     color: aliceblue;
     font-size: 17pt;
-}
-
-.footer-container {
-    margin-bottom: 10px;
-    position: fixed;
+    margin-bottom: 10px;    
     left: 0;
     bottom: 0;
     width: 100%;

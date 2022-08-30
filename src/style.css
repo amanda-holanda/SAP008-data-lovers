@@ -140,18 +140,25 @@
     object-fit: cover;
 }
 
-.footer-container {
+footer {
+    color: aliceblue;
+    font-size: 17pt;      
     margin: 100px 0 auto;
     padding: 10px 10px;
-    background-color: #0A1823;
+    /*background-color: #0A1823;
     border-radius: 20px;
     border: none;
-    color: white;
+    color: white;*/
     width: 100vw;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+span.name {
+    color: rgb(104, 224, 44);
+    font-size: 18pt;
 }
 
 /* ===== Responsividade para dispositivos móveis ===== */
