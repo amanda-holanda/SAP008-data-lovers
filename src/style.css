@@ -57,7 +57,7 @@
     height: 40px;
     margin: 0px 7px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-    font-size: large;
+    font-size: medium;
     text-align: center;   
     cursor: pointer;
 }
@@ -161,6 +161,7 @@
     .btn-option {
         width: 25vw;
         margin: 8px 0px;
+        font-size: smaller;
     }
 
     .btn-search {
@@ -202,6 +203,7 @@
     .btn-option {
         width: 28vw;
         margin: 8px 2px;
+        font-size: 11pt;
     }
 
     .btn-search {
@@ -242,14 +244,20 @@
     }
 
     .btn-option {
-        width: 13vw;
+        width: 15vw;
         margin: 0px 7px;
+        font-size: 10pt;
+    }
+
+    .btn-option.reset {
+        width: 8vw;       
+
     }
 
     .btn-search {
-        width: 13vw;
+        width: 12vw;
         margin: 0px 7px;
-        font-size: 11pt;
+        font-size: 10pt;
     }
 
     .card {
