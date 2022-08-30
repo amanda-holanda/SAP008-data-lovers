@@ -75,14 +75,14 @@ header {
 }
 
 .btn-search {
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 20px;
     border: none;
     color: #0A1823;
     width: 10vw;
     height: 40px;
     margin: 0px 7px;     
-    font-size: medium;
+    font-size: 11pt;
     text-align: center;   
 }
 
