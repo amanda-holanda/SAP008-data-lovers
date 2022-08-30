@@ -43,6 +43,10 @@ header {
     cursor: pointer;
 }
 
+.btn-header:hover {
+    opacity: 0.5;
+}
+
 .rick-img {
     width: 40%;    
     object-fit: fill;
@@ -59,6 +63,10 @@ header {
     font-size: 10pt;
     text-align: center;   
     cursor: pointer;
+}
+
+.btn-option:hover {
+    opacity: 0.5;
 }
 
 .btn-search {
