@@ -3,7 +3,7 @@
     padding:0;
 }
 
-.body-container {    
+body {    
     color: #0A1823;
     font-family: monospace;
     background-image: url(background.jpg);
@@ -16,7 +16,7 @@
     
 }
 
-.header-container { 
+header { 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -73,7 +73,7 @@
     text-align: center;   
 }
 
-.main-container {     
+main {     
     background-color: #0A1823;
     border-radius: 40px;
     display: flex;
@@ -142,23 +142,24 @@
 
 footer {
     color: aliceblue;
-    font-size: 17pt;      
+    font-size: 12pt;      
     margin: 100px 0 auto;
-    padding: 10px 10px;
-    /*background-color: #0A1823;
-    border-radius: 20px;
-    border: none;
-    color: white;*/
-    width: 100vw;
+    padding: 10px 10px;    
+    width: 100%;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-span.name {
+.name {
     color: rgb(104, 224, 44);
-    font-size: 18pt;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.name:hover {
+    opacity: 0.5;
 }
 
 /* ===== Responsividade para dispositivos móveis ===== */
@@ -198,8 +199,15 @@ span.name {
         height: auto;
     }
 
-    .main-container {
+    main {
         width: 100%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
     }
 }
 
@@ -237,8 +245,15 @@ span.name {
         width: 80vw;
     }
 
-    .main-container {
+    main{
         width: 95%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
     }
 }
 
@@ -278,7 +293,7 @@ span.name {
         width: 21vw;
     }
 
-    .main-container {
+    main{
         width: 95%;
     }
 
@@ -287,7 +302,7 @@ span.name {
     }
 }
 
-/*Acima de 1024px já será considerado Desktops e telas grandes*/
+
  
 
 

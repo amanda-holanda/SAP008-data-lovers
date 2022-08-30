@@ -10,22 +10,11 @@ body {
     text-align: center;
     align-content: center;
     font-family: monospace;
-    font-size: 15pt;
+    font-size: 14pt;
     
 }
 
-.main-inicio {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-.introduction {
-    width: 50vw;
-    margin: auto;
-}
-
-.introduction h1 {
+h1 {
     font-size: 28pt;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -34,20 +23,44 @@ body {
     -webkit-text-stroke-color: rgb(102, 217, 31);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.introduction {
+    width: 50vw;   
+    margin: 30px auto; 
+}
+
+.introduction-2 {
+    margin-top: 10px;
+    font-size: 15pt;    
+}
+
 .portal-inicio {
-    width: 35vw;
+    margin: 20px;
+    width: 35vw;        
+}
+
+.portal-inicio:hover {     
+    opacity: 0.5;    
 }
 
 footer {
     color: aliceblue;
-    font-size: 17pt;
-    margin-bottom: 10px;    
-    left: 0;
-    bottom: 0;
+    font-size: 14pt;
+    margin-bottom: 10px;   
     width: 100%;
 }
 
 .name {
     color: rgb(104, 224, 44);
-    font-size: 18pt;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.name:hover {
+    opacity: 0.5;
 }
