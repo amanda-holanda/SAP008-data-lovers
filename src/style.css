@@ -71,7 +71,7 @@
     height: 40px;
     margin: 0px 7px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-    font-size: large;
+    font-size: medium;
     text-align: center;   
 }
 
@@ -117,7 +117,7 @@
 
 .card {
     height: 44vh;
-    width: 16vw;
+    width: 16vw;    
     margin: 20px;
     padding: 2vh 1vw;    
     border-radius: 50px;
