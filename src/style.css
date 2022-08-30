@@ -69,6 +69,11 @@ header {
     opacity: 0.5;
 }
 
+.reset {
+    background-color: aliceblue;
+    border:#00B5CC 4px solid;
+}
+
 .btn-search {
     background-color: white;
     border-radius: 20px;
