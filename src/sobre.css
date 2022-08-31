@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {    
+    color: #0A1823;
+    font-family: monospace;
+    background-image: url(background.jpg);
+    background-color: #0A1823;
+    background-size: fill;   
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    font-family: monospace;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-header { 
+    margin: 25px; 
+    background-color: #00B5CC;
+    border-radius: 20px;
+    border: none;
+    color: #0A1823;
+    width: 12vw; 
+    height: 40px;     
+    font-size: large; 
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    opacity: 0.5;
+}
+
+.rick-img {
+    width: 40%;    
+    object-fit: fill;
+}
