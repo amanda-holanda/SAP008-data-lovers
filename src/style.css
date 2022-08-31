@@ -43,6 +43,10 @@ header {
     cursor: pointer;
 }
 
+.btn-header:hover {
+    opacity: 0.5;
+}
+
 .rick-img {
     width: 40%;    
     object-fit: fill;
@@ -61,15 +65,24 @@ header {
     cursor: pointer;
 }
 
+.btn-option:hover {
+    opacity: 0.5;
+}
+
+.reset {
+    background-color: aliceblue;
+    border:#00B5CC 4px solid;
+}
+
 .btn-search {
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 20px;
     border: none;
     color: #0A1823;
     width: 10vw;
     height: 40px;
     margin: 0px 7px;     
-    font-size: medium;
+    font-size: 11pt;
     text-align: center;   
 }
 
@@ -216,13 +229,21 @@ footer {
 @media screen and (min-width: 481px) and (max-width: 768px) { 
 
     .btn-option {
-        width: 28vw;
+        width: 29vw;
         margin: 8px 2px;
         font-size: 11pt;
     }
 
+    .reset {
+        width: 23vw;
+    }
+
     .btn-search {
         width: 28vw;
+    }
+
+    .percentage-container {
+        width: 90%;
     }
     
     .btn-header {
@@ -268,7 +289,7 @@ footer {
     .btn-option {
         width: 15vw;
         margin: 0px 7px;
-        font-size: 9pt;
+        font-size: 8pt;
     }
 
     .btn-option.reset {
