@@ -7,7 +7,7 @@ body {
     background-image: url("background.jpg");
     background-color: #0A1823;
     background-size: fill;
-    color: rgb(255, 255, 255);
+    color: aliceblue;
     text-align: center;
     align-content: center;
     font-family: monospace;
@@ -56,7 +56,7 @@ footer {
 }
 
 .name {
-    color: rgb(104, 224, 44);
+    color: #B2DF28;
     font-size: 16pt;
     cursor: pointer;
 }
