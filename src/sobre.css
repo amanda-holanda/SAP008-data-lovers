@@ -8,7 +8,8 @@ body {
     font-family: monospace;
     background-image: url(background.jpg);
     background-color: #0A1823;
-    background-size: fill;   
+    background-size: fill;    
+    font-family: monospace;     
 }
 
 header { 
@@ -17,20 +18,14 @@ header {
     align-items: center; 
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 100%;
-    font-family: monospace;
+    width: 100%;       
+    
 }
 
 nav {
     display: flex;
-    justify-content: center;
-}
-
-h1 {
-    color: aliceblue;
-    margin-top: 2vh;
-    -webkit-text-stroke-width: 1px; 
-    -webkit-text-stroke-color: rgb(102, 217, 31);
+    justify-content: center;    
+    width: 100%;
 }
 
 .btn-header { 
@@ -49,11 +44,21 @@ h1 {
     opacity: 0.5;
 }
 
+h1 {
+    color: aliceblue;
+    margin-top: 2vh;
+    width: 100%;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(102, 217, 31);    
+    text-align: center;
+}
+
 main {
-    display: flex;   
+    display: flex;  
+    flex-wrap: wrap;     
     justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: center;    
 }
 
 .card {
@@ -69,7 +74,7 @@ main {
     text-align: center;
     align-items: center;
     align-content: center;
-    font-size: 10pt;
+    font-size: 1rem;
     color:#0A1823;    
     cursor: pointer;
     text-decoration: none;
@@ -88,10 +93,67 @@ img {
 }
 
 ul li {
-    font-size: 12pt; 
-    margin: 1vh;
-        
+    font-size: 1rem; 
+    margin: 1vh;        
 }
+
+@media screen and (max-width: 480px)  {
+    .btn-header { 
+        width: 25vw;
+    }
+
+    .card {        
+        border-radius: 60px;
+        width: 50vw;
+        height: 66vh;
+    }
+
+    img {
+        width: 41vw;
+        border-radius: 60px;
+    }
+
+ }
+
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .btn-header { 
+        width: 30vw;
+    }
+
+    .card {        
+        width: 65vw;        
+        height: 53vh;
+    }
+
+    img {
+        width: 55vw;        
+    }
+
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .btn-header { 
+        width: 25vw;
+    }
+
+    .card {        
+        width: 58vw;        
+        height: 55vh;
+        
+    }
+
+    img {
+        width: 50vw;        
+    }
+
+    ul li {
+        font-size: 1.3rem; 
+                
+    }
+
+ }
 
 
 
