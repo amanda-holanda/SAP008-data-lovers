@@ -60,7 +60,7 @@ header {
     width: 10vw;
     height: 40px;
     margin: 0px 7px;
-    font-size: 10pt;
+    font-size: 0.8rem;
     text-align: center;   
     cursor: pointer;
 }
@@ -72,6 +72,7 @@ header {
 .reset {
     background-color: aliceblue;
     border:#00B5CC 4px solid;
+    font-size: 0.9rem;
 }
 
 .btn-search {
@@ -82,7 +83,7 @@ header {
     width: 10vw;
     height: 40px;
     margin: 0px 7px;     
-    font-size: 11pt;
+    font-size: 0.9rem;
     text-align: center;   
 }
 
@@ -140,7 +141,7 @@ main {
     justify-content: flex-start;                      
     text-align: center;
     align-items: center;
-    font-size: 10pt;
+    font-size: 0.89rem;
     color:#0A1823;    
 }
 
@@ -155,7 +156,7 @@ main {
 
 footer {
     color: aliceblue;
-    font-size: 12pt;      
+    font-size: 1.1rem;      
     margin: 100px 0 auto;
     padding: 10px 10px;    
     width: 100%;
@@ -167,7 +168,7 @@ footer {
 
 .name {
     color: #B2DF28;
-    font-size: 13pt;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -182,12 +183,12 @@ footer {
     .btn-option {
         width: 25vw;
         margin: 8px 0px;
-        font-size: 9pt;
+        font-size: 0.7rem;
     }
 
     .btn-search {
         width: 25vw;
-        font-size: 10pt;
+        font-size: 0.8rem;
     }
 
     .btn-header {
@@ -198,7 +199,7 @@ footer {
     .card {
         height: 64vh;
         width: 45vw;
-        font-size: 10pt;
+        font-size: 0.85rem;
         padding: 2vh 1vw;
     }
 
@@ -217,10 +218,10 @@ footer {
     }
 
     footer {
-        font-size: 10pt;
+        font-size: 0.9rem;
     }
     .name {
-        font-size: 11pt;
+        font-size: 1rem;
     }
 }
 
@@ -231,7 +232,7 @@ footer {
     .btn-option {
         width: 29vw;
         margin: 8px 2px;
-        font-size: 11pt;
+        font-size: 0.9rem;
     }
 
     .reset {
@@ -254,7 +255,7 @@ footer {
     .card {
         height: 34vh;
         width: 37vw;
-        font-size: 9pt;        
+        font-size: 0.82rem;        
     }
 
     .poster-img {
@@ -271,10 +272,10 @@ footer {
     }
 
     footer {
-        font-size: 10pt;
+        font-size: 0.9rem;
     }
     .name {
-        font-size: 11pt;
+        font-size: 1rem;
     }
 }
 
@@ -289,7 +290,7 @@ footer {
     .btn-option {
         width: 15vw;
         margin: 0px 7px;
-        font-size: 8pt;
+        font-size: 0.72rem;
     }
 
     .btn-option.reset {
@@ -300,13 +301,13 @@ footer {
     .btn-search {
         width: 13vw;
         margin: 0px 7px;
-        font-size: 9pt;
+        font-size: 0.75rem;
     }
 
     .card {
         height: 29vh;
         width: 24vw;
-        font-size: 10pt;
+        font-size: 0.89rem;
     }
 
     .poster-img {
