@@ -77,9 +77,27 @@ Após definir as histórias de usuário, criou-se um protótipo de baixa fidelid
 
 ![img](prototipobaixafidelidade.png)
 
-Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta na imagem abaixo:
+Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas imagens abaixo:
 
-![img](tela-inicial-mobile-tablet-desktop.png)
+Protótipo de alta fidelidade da tela de início - Mobile, Tablet e Desktop:
+
+![img](page-inicio-mobile-tablet-desktop.png)
+
+
+Protótipo de alta fidelidade - Mobile:
+
+![img](mobile-versão-inicial-final.png)
+
+
+Protótipo de alta fidelidade - Tablet:
+
+![img](tablet-versão-final.png)
+
+
+Protótipo de alta fidelidade - Desktop:
+
+![img](desktop-versão-inicial-final.png)
+
 
 
 ## 5. Testes unitários
