@@ -29,16 +29,17 @@ main {
 .introduction {
     width: 50vw;   
     margin: 30px auto; 
+    font-size: 1.29rem;
 }
 
 .introduction-2 {
     margin-top: 10px;
-    font-size: 1.2rem;    
+    font-size: 1.42rem;    /*alterado pois a letra estava mto pequena*/
 }
 
 .portal-inicio {
     margin: 20px;
-    width: 35vw;        
+    width: 31vw;    /*alterado tamanho da imagem, saiu a tela de rolagem na lateral-tela inteira grande*/    
 }
 
 .portal-inicio:hover {     
@@ -47,17 +48,106 @@ main {
 
 footer {
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1.3rem; /*alterado pois a letra estava mto pequena*/
     margin-bottom: 10px;   
     width: 100%;
 }
 
 .name {
     color: #B2DF28;
-    font-size: 1.2rem;
+    font-size: 1.35rem; /*alterado pois a letra estava mto pequena*/
     cursor: pointer;
 }
 
 .name:hover {
     opacity: 0.5;
+}
+
+/* ===== Responsividade para dispositivos móveis ===== */
+
+@media screen and (max-width: 480px)  { 
+    h1 {
+        margin-bottom: 0px;
+        font-size: 1.79rem;
+    }
+
+    .introduction {
+        font-size: 1.08rem;
+    }
+
+    .introduction-2 {
+        font-size: 1.2rem;
+    }
+
+    .portal-inicio {
+        width: 36vw;
+    }
+
+    footer {
+        font-size: 1.05rem; 
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+}
+
+/* ===== Responsividade para Ipads e tablets ===== */
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+    h1 {
+        margin-bottom: 0px;
+        font-size: 1.82rem;
+    }
+
+    .introduction {
+        font-size: 1.09rem;
+    }
+
+    .introduction-2 {
+        font-size: 1.25rem;
+    }
+
+    .portal-inicio {
+        width: 43vw;
+    }
+
+    
+    footer {
+        font-size: 1.05rem; 
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+  
+}
+
+/* ===== Responsividade para Telas pequenas e laptops ===== */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .introduction {
+        width: 60vw;
+        font-size: 1.4rem;
+    }
+
+    .introduction-2 {
+        font-size: 1.55rem;
+    }
+
+    .portal-inicio {
+        width: 60vw;
+    }
+
+    footer {
+        margin-top: 35px; 
+        font-size: 1.4rem; 
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
 }
