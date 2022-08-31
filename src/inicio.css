@@ -5,13 +5,13 @@
 
 body { 
     background-image: url("background.jpg");
-    background-size: cover;
+    background-color: #0A1823;
+    background-size: fill;
     color: rgb(255, 255, 255);
     text-align: center;
     align-content: center;
     font-family: monospace;
-    font-size: 14pt;
-    
+    font-size: 14pt;    
 }
 
 h1 {
