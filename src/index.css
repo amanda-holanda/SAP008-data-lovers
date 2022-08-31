@@ -11,16 +11,13 @@ body {
     text-align: center;
     align-content: center;
     font-family: monospace;
-    font-size: 14pt;    
+    font-size: 1.1rem;    
 }
 
 h1 {
-    font-size: 28pt;
     margin-top: 25px;
-    margin-bottom: 20px;
-    border: rgb(137, 19, 133);
-    -webkit-text-stroke-width: 2px; 
-    -webkit-text-stroke-color: rgb(102, 217, 31);
+    margin-bottom: 20px;        
+    -webkit-text-stroke: rgb(102, 217, 31) 0.1rem;
 }
 
 main {
@@ -36,7 +33,7 @@ main {
 
 .introduction-2 {
     margin-top: 10px;
-    font-size: 15pt;    
+    font-size: 1.2rem;    
 }
 
 .portal-inicio {
@@ -50,14 +47,14 @@ main {
 
 footer {
     color: aliceblue;
-    font-size: 14pt;
+    font-size: 1rem;
     margin-bottom: 10px;   
     width: 100%;
 }
 
 .name {
     color: #B2DF28;
-    font-size: 16pt;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
