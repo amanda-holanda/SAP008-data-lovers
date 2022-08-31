@@ -1,66 +1,331 @@
 * {
-    padding: 0;
     margin: 0;
+    padding:0;
 }
 
-body { 
-    background-image: url("background.jpg");
+body {    
+    color: #0A1823;
+    font-family: monospace;
+    background-image: url(background.jpg);
     background-color: #0A1823;
     background-size: fill;
-    color: aliceblue;
-    text-align: center;
-    align-content: center;
+    display:flex;    
+    flex-wrap: wrap; 
+    justify-content: center;    
+    align-items: center;
+    
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
     font-family: monospace;
-    font-size: 14pt;    
 }
 
-h1 {
-    font-size: 28pt;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    border: rgb(137, 19, 133);
-    -webkit-text-stroke-width: 2px; 
-    -webkit-text-stroke-color: rgb(102, 217, 31);
+.nav {
+    display: flex;
+    justify-content: center;
 }
 
-main {
+.btn-header { 
+    margin: 25px; 
+    background-color: #00B5CC;
+    border-radius: 20px;
+    border: none;
+    color: #0A1823;
+    width: 12vw; 
+    height: 40px;     
+    font-size: large; 
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    opacity: 0.5;
+}
+
+.rick-img {
+    width: 40%;    
+    object-fit: fill;
+}
+
+.btn-option {
+    background-color: #00B5CC;
+    border-radius: 20px;
+    border: none;
+    color: #0A1823;
+    width: 10vw;
+    height: 40px;
+    margin: 0px 7px;
+    font-size: 10pt;
+    text-align: center;   
+    cursor: pointer;
+}
+
+.btn-option:hover {
+    opacity: 0.5;
+}
+
+.reset {
+    background-color: aliceblue;
+    border:#00B5CC 4px solid;
+}
+
+.btn-search {
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    color: #0A1823;
+    width: 10vw;
+    height: 40px;
+    margin: 0px 7px;     
+    font-size: 11pt;
+    text-align: center;   
+}
+
+main {     
+    background-color: #0A1823;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;    
 }
 
-.introduction {
-    width: 50vw;   
-    margin: 30px auto; 
+.option-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: monospace;            
 }
 
-.introduction-2 {
-    margin-top: 10px;
-    font-size: 15pt;    
+.percentage-container {
+    width: 100%; 
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    color:#B2DF28 ;
+    font-size: large;
 }
 
-.portal-inicio {
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;    
+}
+
+.card {
+    height: 44vh;
+    width: 16vw;    
     margin: 20px;
-    width: 35vw;        
+    padding: 2vh 1vw;    
+    border-radius: 50px;
+    background-color: #B2DF28;  
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-start;                      
+    text-align: center;
+    align-items: center;
+    font-size: 10pt;
+    color:#0A1823;    
 }
 
-.portal-inicio:hover {     
-    opacity: 0.5;    
+.poster-img {
+    height: 25vh;
+    width: 15vw;    
+    margin-bottom: 2vh;
+    border-radius: 50px;
+    border: #0A1823 2px solid;
+    object-fit: cover;
 }
 
 footer {
     color: aliceblue;
-    font-size: 14pt;
-    margin-bottom: 10px;   
+    font-size: 12pt;      
+    margin: 100px 0 auto;
+    padding: 10px 10px;    
     width: 100%;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .name {
     color: #B2DF28;
-    font-size: 16pt;
+    font-size: 13pt;
     cursor: pointer;
 }
 
 .name:hover {
     opacity: 0.5;
 }
+
+/* ===== Responsividade para dispositivos móveis ===== */
+
+@media screen and (max-width: 480px)  { 
+     
+    .btn-option {
+        width: 25vw;
+        margin: 8px 0px;
+        font-size: 9pt;
+    }
+
+    .btn-search {
+        width: 25vw;
+        font-size: 10pt;
+    }
+
+    .btn-header {
+        width: 28vw;
+        margin: 10px;
+    }
+
+    .card {
+        height: 64vh;
+        width: 45vw;
+        font-size: 10pt;
+        padding: 2vh 1vw;
+    }
+
+    .poster-img {
+        height: 38vh;
+        width: 40vw;        
+    }    
+
+    .rick-img {
+        width: 80vw;
+        height: auto;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
+    }
+}
+
+/* ===== Responsividade para Ipads e tablets ===== */
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+    .btn-option {
+        width: 29vw;
+        margin: 8px 2px;
+        font-size: 11pt;
+    }
+
+    .reset {
+        width: 23vw;
+    }
+
+    .btn-search {
+        width: 28vw;
+    }
+
+    .percentage-container {
+        width: 90%;
+    }
+    
+    .btn-header {
+        width: 20vw;
+        margin: 10px;
+    }
+    
+    .card {
+        height: 34vh;
+        width: 37vw;
+        font-size: 9pt;        
+    }
+
+    .poster-img {
+        height: 29vw;
+        width: 30vw;
+    }
+
+    .rick-img {
+        width: 80vw;
+    }
+
+    main{
+        width: 95%;
+    }
+
+    footer {
+        font-size: 10pt;
+    }
+    .name {
+        font-size: 11pt;
+    }
+}
+
+/* ===== Responsividade para Telas pequenas e laptops ===== */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+
+    .btn-header {
+        width: 15vw;
+    }
+
+    .btn-option {
+        width: 15vw;
+        margin: 0px 7px;
+        font-size: 8pt;
+    }
+
+    .btn-option.reset {
+        width: 8vw;       
+
+    }
+
+    .btn-search {
+        width: 13vw;
+        margin: 0px 7px;
+        font-size: 9pt;
+    }
+
+    .card {
+        height: 29vh;
+        width: 24vw;
+        font-size: 10pt;
+    }
+
+    .poster-img {
+        height: 16vh;
+        width: 21vw;
+    }
+
+    main{
+        width: 95%;
+    }
+
+    .rick-img {
+        width: 50vw;
+    }
+}
+
+
+ 
+
+
+
+
