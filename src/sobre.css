@@ -21,7 +21,7 @@ header {
     font-family: monospace;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: center;
 }
@@ -42,7 +42,49 @@ header {
     opacity: 0.5;
 }
 
-.rick-img {
-    width: 40%;    
-    object-fit: fill;
+main {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
+.card {
+    height: 67vh;
+    width: 27vw;    
+    margin: 8vh;
+    padding: 2vh 1vw;    
+    border-radius: 80px;
+    background-color: #B2DF28;  
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-start;                      
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 10pt;
+    color:#0A1823;    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+img {
+    height: auto;
+    width: 24vw;
+    margin: 2vh;
+    border-radius: 70px;
+    border: #0A1823 2px solid;
+}
+
+ul li {
+    font-size: 16pt; 
+    margin: 2vh;
+        
+}
+
+
+
