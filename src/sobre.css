@@ -26,6 +26,13 @@ nav {
     justify-content: center;
 }
 
+h1 {
+    color: aliceblue;
+    margin-top: 2vh;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(102, 217, 31);
+}
+
 .btn-header { 
     margin: 25px; 
     background-color: #00B5CC;
@@ -73,7 +80,7 @@ main {
 }
 
 img {
-    height: auto;
+    height: 72vh;
     width: 24vw;
     margin: 2vh;
     border-radius: 70px;
@@ -81,8 +88,8 @@ img {
 }
 
 ul li {
-    font-size: 16pt; 
-    margin: 2vh;
+    font-size: 12pt; 
+    margin: 1vh;
         
 }
 
