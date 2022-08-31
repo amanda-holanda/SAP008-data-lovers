@@ -8,9 +8,6 @@
 * [4. Protótipos da interface](#4-protótipos-da-interface)
 * [5. Testes Unitários](#5-testes-unitários)
 * [6. Testes de Usabilidade](#6-testes-de-usabilidade)
-* [7. XXXX](#7-considerações-técnicas)
-* [8. YYYY](#8-pistas-dicas-e-leituras-complementares)
-* [9. ZZZZZ](#9-checklist)
 
 ***
 
@@ -135,7 +132,7 @@ O usuário não conseguia visualizar as informações descritas nos cards dos pe
 ### Problema 2
 No primeiro momento, criou-se um campo de pesquisa com o objetivo que o usuário pudesse pesquisar o seu personagem pelo seu nome. No entanto, colocou-se dentro do campo de pesquisa apenas a palavra "pesquisar". Por conta disso, o usuário relatou que ficou confuso sobre o que pesquisar, ou seja, se poderia pesquisar sobre o gênero do personagem, por exemplo. Para solucionar problema, adicionou-se dentro do campo de pesquisa o termo 'buscar por nome'. Dessa forma, ficou mais claro para o usuário o objetivo principal da sua pesquisa.
 
-# Problema 3
+### Problema 3
 No primeiro momento, criou-se o botão "Sobre" no cabeçalho da página principal, com o objetivo de redirecionar o usuário para uma página com informações sobre quem desenvolveu o site. No entanto, o usuário ficou confuso, relatou que não sabia do que se tratava esse "Sobre" e perguntou se era referente à informações sobre a série. Para solucionar o problema, substituiu-se o botão para "Sobre nós". Dessa forma, ficou mais claro para o usuário do que se tratava a funcionalidade desse botão.
 
 ### Problema 4
