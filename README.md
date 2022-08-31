@@ -79,7 +79,7 @@ Após definir as histórias de usuário, criou-se um protótipo de baixa fidelid
 
 Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta na imagem abaixo:
 
-![esbocoaltafidelidade] (.jpeg)
+![img](tela-inicial-mobile-tablet-desktop.png)
 
 
 ## 5. Testes unitários
