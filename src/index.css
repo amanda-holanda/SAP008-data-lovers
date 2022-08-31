@@ -34,12 +34,12 @@ main {
 
 .introduction-2 {
     margin-top: 10px;
-    font-size: 1.42rem;    /*alterado pois a letra estava mto pequena*/
+    font-size: 1.42rem;    
 }
 
 .portal-inicio {
     margin: 20px;
-    width: 31vw;    /*alterado tamanho da imagem, saiu a tela de rolagem na lateral-tela inteira grande*/    
+    width: 31vw;    
 }
 
 .portal-inicio:hover {     
@@ -48,22 +48,20 @@ main {
 
 footer {
     color: aliceblue;
-    font-size: 1.3rem; /*alterado pois a letra estava mto pequena*/
+    font-size: 1.3rem; 
     margin-bottom: 10px;   
     width: 100%;
 }
 
 .name {
     color: #B2DF28;
-    font-size: 1.35rem; /*alterado pois a letra estava mto pequena*/
+    font-size: 1.35rem; 
     cursor: pointer;
 }
 
 .name:hover {
     opacity: 0.5;
 }
-
-/* ===== Responsividade para dispositivos móveis ===== */
 
 @media screen and (max-width: 480px)  { 
     h1 {
@@ -91,8 +89,6 @@ footer {
         font-size: 1.2rem;
     }
 }
-
-/* ===== Responsividade para Ipads e tablets ===== */
 
 @media screen and (min-width: 481px) and (max-width: 768px) { 
 
@@ -123,8 +119,6 @@ footer {
     }
   
 }
-
-/* ===== Responsividade para Telas pequenas e laptops ===== */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
