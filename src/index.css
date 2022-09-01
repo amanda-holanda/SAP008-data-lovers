@@ -3,11 +3,18 @@
     margin: 0;
 }
 
+:root {
+    --green: rgb(178, 223, 40);
+    --dark-blue: rgb(10, 24, 35);
+    --light-blue: rgb(0, 181, 204);
+    --white: rgb(240, 248, 255);
+}
+
 body { 
     background-image: url("background.jpg");
-    background-color: #0A1823;
+    background-color: var(--dark-blue);
     background-size: fill;
-    color: aliceblue;
+    color: var(--white);
     text-align: center;
     align-content: center;
     font-family: monospace;
@@ -47,14 +54,14 @@ main {
 }
 
 footer {
-    color: aliceblue;
+    color: var(--white);
     font-size: 1.3rem; 
     margin-bottom: 10px;   
     width: 100%;
 }
 
 .name {
-    color: #B2DF28;
+    color: var(--green);
     font-size: 1.35rem; 
     cursor: pointer;
 }

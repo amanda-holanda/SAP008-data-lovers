@@ -3,11 +3,18 @@
     padding:0;
 }
 
+:root {
+    --green: rgb(178, 223, 40);
+    --dark-blue: rgb(10, 24, 35);
+    --light-blue: rgb(0, 181, 204);
+    --white: rgb(240, 248, 255);
+}
+
 body {    
-    color: #0A1823;
+    color: var(--dark-blue);
     font-family: monospace;
     background-image: url(background.jpg);
-    background-color: #0A1823;
+    background-color: var(--dark-blue);
     background-size: fill;
     display:flex;    
     flex-wrap: wrap; 
@@ -33,10 +40,10 @@ header {
 
 .btn-header { 
     margin: 25px; 
-    background-color: #00B5CC;
+    background-color: var(--light-blue);
     border-radius: 20px;
     border: none;
-    color: #0A1823;
+    color: var(--dark-blue);
     width: 12vw; 
     height: 40px;     
     font-size: large; 
@@ -53,10 +60,10 @@ header {
 }
 
 .btn-option {
-    background-color: #00B5CC;
+    background-color: var(--light-blue);
     border-radius: 20px;
     border: none;
-    color: #0A1823;
+    color: var(--dark-blue);
     width: 10vw;
     height: 40px;
     margin: 0px 7px;
@@ -70,16 +77,16 @@ header {
 }
 
 .reset {
-    background-color: aliceblue;
-    border:#00B5CC 4px solid;
+    background-color: var(--white);
+    border: var(--light-blue) 4px solid;
     font-size: 0.9rem;
 }
 
 .btn-search {
-    background-color: aliceblue;
+    background-color: var(--white);
     border-radius: 20px;
     border: none;
-    color: #0A1823;
+    color: var(--dark-blue);
     width: 10vw;
     height: 40px;
     margin: 0px 7px;     
@@ -88,7 +95,7 @@ header {
 }
 
 main {     
-    background-color: #0A1823;
+    background-color: var(--dark-blue);
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -117,7 +124,7 @@ main {
     flex-wrap: wrap;    
     justify-content: center;
     align-items: center;
-    color:#B2DF28 ;
+    color: var(--green);
     font-size: large;
 }
 
@@ -135,14 +142,14 @@ main {
     margin: 20px;
     padding: 2vh 1vw;    
     border-radius: 50px;
-    background-color: #B2DF28;  
+    background-color: var(--green);  
     display: flex;  
     flex-direction: column;
     justify-content: flex-start;                      
     text-align: center;
     align-items: center;
     font-size: 0.89rem;
-    color:#0A1823;    
+    color: var(--dark-blue);    
 }
 
 .poster-img {
@@ -150,12 +157,12 @@ main {
     width: 15vw;    
     margin-bottom: 2vh;
     border-radius: 50px;
-    border: #0A1823 2px solid;
+    border: var(--dark-blue) 2px solid;
     object-fit: cover;
 }
 
 footer {
-    color: aliceblue;
+    color: var(--white);
     font-size: 1.1rem;      
     margin: 100px 0 auto;
     padding: 10px 10px;    
@@ -167,7 +174,7 @@ footer {
 }
 
 .name {
-    color: #B2DF28;
+    color: var(--green);
     font-size: 1.2rem;
     cursor: pointer;
 }
