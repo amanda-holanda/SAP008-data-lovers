@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Início</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav">
+      <a href="inicio.html"><button class="btn-header">INÍCIO</button></a>
+      <a href="sobre.html"><button class="btn-header">SOBRE NÓS</button></a>
+      
+    </nav>
+    <img class="rick-img" src="rick-and-morty.png" alt="rick and morty image">
+  </header>
+
+  <main>
+
+    <div class="option-container">
+      <label>
+        <select id="select-status" class="btn-option">
+          <option value="" selected disabled hidden>STATUS</option>
+          <option value="alive">VIVO</option>
+          <option value="dead">MORTO</option>
+          <option value="unknown">DESCONHECIDO</option>
+        </select>
+      </label>
+
+      <label>
+        <select id="select-species" class="btn-option">
+          <option value="" selected disabled hidden>ESPÉCIE</option>
+          <option value="human">HUMANO</option>
+          <option value="alien">ALIENÍGENA</option>
+          <option value="unknown">DESCONHECIDO</option>
+        </select>
+      </label>
+
+      <label>
+        <select id="select-gender" class="btn-option">
+          <option value="" selected disabled hidden>GÊNERO</option>
+          <option value="male">MASCULINO</option>
+          <option value="female">FEMININO</option>
+          <option value="unknown">DESCONHECIDO</option>
+        </select>
+      </label>
+
+      <label>
+        <select id="select-order" class="btn-option">
+          <option value="" selected disabled hidden>ORDENAR</option>
+          <option value="ascending" id="ascending">A-Z</option>
+          <option value="descending" id="descending">Z-A</option>
+        </select>
+      </label>
+
+      <label>
+        <button id="reset" class="btn-option reset">limpar
+        </button>
+      </label>
+
+      <label>
+
+        <input type="text" id="btn-search" class="btn-search" placeholder="buscar por nome">
+
+      </label>
+
+    </div>
+
+    <div class="percentage-container" id="percentage-container">
+      <strong>
+        <p class="percentage" id="percentage"></p>
+      </strong>
+    </div>
+
+    <div class="card-container" id="card-container">
+    </div>
+
+  </main>
+
+  <footer>
+
+    <strong>      
+      <p class="footer-text">Desenvolvido por
+        <a href="https://www.linkedin.com/in/amandaholanda/">
+          <span class="name">Amanda Holanda</span>
+        </a>
+         e
+        <a href="https://www.linkedin.com/in/angellmelo/">
+          <span class="name">Angélica Melo</span>
+        </a>
+      </p>
+    </strong>
+
+  </footer>
+
+  <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
