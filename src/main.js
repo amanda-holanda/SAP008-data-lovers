@@ -93,7 +93,6 @@ reset.addEventListener('click', (event) => {
 
 });
 
-
 // ===== evento para buscar por nome ====
 searchForName.addEventListener('keyup', function (event) {
     const value = event.target.value;

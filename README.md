@@ -31,19 +31,16 @@ parte direita.
 
 ## 2. Resumo do projeto
 
-Neste projeto decidimos criar um site dedicado aos fãs de Rick and Morty, 
-com o objetivo de catalogar todos os personagens da série, para que dessa forma o
-usuário consiga encontrá-los e obter mais informações sobre eles, de maneira fácil e prática.
+Neste projeto criou-se um site dedicado aos fãs de Rick and Morty com o objetivo de catalogar todos os personagens da série. Dessa forma, o
+usuário consegue encontrar os seus personagens favoritos e obter mais informações sobre eles de maneira fácil e prática.
 
+Iniciou-se o projeto fazendo uma pesquisa sobre o usuário. Concluiu-se que os principais objetivos do usuário em relação ao produto são:
 
-Iniciou-se o projeto fazendo uma pesquisa sobre o usuário, e concluiu-se que os principais objetivos do usuário em relação ao produto são:
+A) Obter mais informações sobre seus personagens favoritos, principalmente sobre seu: nome, gênero, local de origem, espécie, imagem em quantos episódios aparecem e números de episódios;
 
-A) Obter mais informações sobre seus personagens favoritos, principalmente sobre seu: nome, gênero, local de origem, espécie, imagem em quantos episódios aparecem e números de episódios.
-
-B) Entretenimento: Utilizam o produto quando querem dar risada, sair um pouco da realidade ou deixar o som da série de fundo.
+B) Entretenimento: Utilizam o produto quando querem dar risada, sair um pouco da realidade ou usar o som da série como fundo musical.
 
 ## 3. Histórias do usuário
-
 
 Iniciou-se o projeto determinando quatro (4) histórias de usuário:
 
@@ -54,10 +51,10 @@ A partir dessa história, criou-se a funcionalidade de exibir os cards dos perso
 
 ### História 2: “Como fã da série, gostaria de saber quais personagens são alienígenas, pois eu amo ficção científica.”
 
-A partir dessa história, criou-se a funcionalidade do botão espécie, onde o usuário pode verificar a quais espécies pertencem os personagens. Definiu-se que essa história estava pronta quando os cards dos personagens filtrados por espécie (alienígena, humano e desconhecido) foram exibidos na tela do navegador.
+A partir dessa história, criou-se a funcionalidade do botão espécie, na qual o usuário pode verificar quais espécies pertencem aos personagens. Definiu-se que essa história estava pronta quando os cards dos personagens filtrados por espécie (alienígena, humano e desconhecido) foram exibidos na tela do navegador.
 
 
-### História 3: “Eu como estudante de Ciências Sociais, gostaria de saber a média de quantas personagens femininas existem na série para colocar nos dados do meu TCC.”
+### História 3: “Eu como estudante de Ciências Sociais, gostaria de saber a média de personagens femininas que existem na série para colocar nos dados do meu TCC.”
 
 A partir dessa história, criou-se a funcionalidade de exibir a porcentagem dos personagens na tela de acordo com o filtro escolhido. Definiu-se que essa história estava finalizada quando foi exibido na tela do navegador a média dos personagens com base no filtro selecionado.
 
@@ -123,7 +120,7 @@ Criou-se um teste para verificar se a função de ordenar se tratava de uma fun�
 
 ## 6. Testes de usabilidade
 
-A seguir estão os 4 (quatro) principais problemas detectados por usuários durante o processo de construção do projeto e como estes foram solucionados.
+A seguir estão os 4 (quatro) principais problemas detectados por usuários durante o processo de construção do projeto e como os mesmos foram solucionados.
 
 ### Problema 1
 O usuário não conseguia visualizar as informações descritas nos cards dos personagens quando acessava a página principal do site no seu celular, pois os templates estavam dispostos em 3 (três) colunas. Dessa forma, para solucionar esse problema, alterou-se a disposição dos cards para apenas uma coluna, ficando bem mais legível e visível para o usuário, quando este acessa o site pelo seu celular.
