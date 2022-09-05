@@ -93,7 +93,7 @@ const rickAndMorty = {
     // ===== função de porcentagem dos personagens filtrados =====    
     calcularPorcentagem: function(tamanhoList, tamanhoListaFiltrada) {            
 
-        return Math.round((tamanhoListaFiltrada*100)/tamanhoList);
+        return Math.round((tamanhoListaFiltrada*100)/tamanhoList); //math.round arredonda o valor
                
     }
     
