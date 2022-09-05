@@ -1,11 +1,7 @@
-export {rickAndMorty};
-
-// ==== objeto principal com as funções de mostrar cards e filtro =====
-const rickAndMorty = {
-
-    // ===== Função de filtro por status ====
-    filtrarPorStatus: function (list, status) {
-        const filtro = list.filter(function(personagem) {        
+const dataFunctions = {
+    
+    filtrarPorStatus: function (characters, status) {
+        const filtro = characters.filter(function(personagem) {        
             const statusFiltrado = personagem.status.toLowerCase() === status;         
             return statusFiltrado; 
 
@@ -14,9 +10,8 @@ const rickAndMorty = {
         return filtro;  
     },
      
-    // ===== Função de filtro por espécie ====
-    filtrarPorEspecie: function (list, species) {
-        const filtro = list.filter(function(personagem) {
+    filtrarPorEspecie: function (characters, species) {
+        const filtro = characters.filter(function(personagem) {
             const especieFiltrado = personagem.species.toLowerCase() === species;
             return especieFiltrado;   
 
@@ -26,9 +21,8 @@ const rickAndMorty = {
         
     },
 
-    // ===== Função de filtro por gênero ====
-    filtrarPorGenero: function (list, gender) {
-        const filtro = list.filter(function(personagem) {
+    filtrarPorGenero: function (characters, gender) {
+        const filtro = characters.filter(function(personagem) {
             const generoFiltrado = personagem.gender.toLowerCase() === gender;
             return generoFiltrado;
 
@@ -37,65 +31,58 @@ const rickAndMorty = {
 
     },
 
-    // ===== Função de ordenar ====
-    ordenar: function(list, sortBy) {
-        //uso do spread: crio um array novo para que o array original não seja modificado
-        //com o o uso do sort;
-        const copy = [...list]; 
+    ordenarCrescente: function(characters) {
+        const ordem = characters.sort(function (a, b) {
+            if (a.name > b.name) {
+              return 1;
+            }else {
+              return -1;
+            }            
+            
+          });          
+        return ordem;
+
+    },   
+
+    ordenarDecrescente: function(characters) {
+        const ordem = characters.sort(function (a, b) {            
+            if (a.name > b.name) {
+              return -1;
+            }else {
+              return 1;
+            }            
+            
+          });          
+        return ordem;
+
+    },   
+
+    ordenar: function(characters, sortBy) {        
+        const copy = [...characters]; 
 
         if(sortBy === "ascending") {
-            return rickAndMorty.ordenarCrescente(copy)
+            return dataFunctions.ordenarCrescente(copy)
         }
         else if(sortBy === "descending" ) {
-            return rickAndMorty.ordenarDecrescente(copy)
+            return dataFunctions.ordenarDecrescente(copy)
         }
 
     },
 
-    // ===== Função de ordenar de forma crescente ====
-    ordenarCrescente: function(list) {
-        const ordem = list.sort(function (a, b) {
-            if (a.name > b.name) {
-              return 1;
-            }else {
-              return -1;
-            }            
-            
-          });          
-        return ordem;
-
-    },   
-
-    // ===== Função de ordenar de forma decrescente ====
-    ordenarDecrescente: function(list) {
-        const ordem = list.sort(function (a, b) {            
-            if (a.name > b.name) {
-              return -1;
-            }else {
-              return 1;
-            }            
-            
-          });          
-        return ordem;
-
-    },   
-
-    // ===== Função buscar por nome ====
-    buscarPorNome: function (list, name) {
-        const filtro = list.filter(function(personagem) {
+    buscarPorNome: function (characters, name) {
+        const filtro = characters.filter(function(personagem) {
             const buscaFiltrada = personagem.name.toLowerCase().includes(name.toLowerCase());
             return buscaFiltrada;
         });
         return filtro;
-    },
-  
-
-    // ===== função de porcentagem dos personagens filtrados =====    
+    }, 
+       
     calcularPorcentagem: function(tamanhoList, tamanhoListaFiltrada) {            
 
-        return Math.round((tamanhoListaFiltrada*100)/tamanhoList); //math.round arredonda o valor
+        return Math.round((tamanhoListaFiltrada*100)/tamanhoList); 
                
     }
     
 };  
 
+export default dataFunctions;

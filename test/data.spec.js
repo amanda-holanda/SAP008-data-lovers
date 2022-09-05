@@ -1,4 +1,4 @@
-import {rickAndMorty} from '../src/data.js';
+import dataFunctions from '../src/data.js';
 
 const arrayTest = [
   {
@@ -30,30 +30,28 @@ const arrayTest = [
   } 
 ];
 
+describe('dataFunctions', () => {
 
-
-describe('rickAndMorty', () => {
-
-  it('rickAndMorty is a object', () => {
-    expect(typeof rickAndMorty).toBe('object');
+  it('dataFunctions is a object', () => {
+    expect(typeof dataFunctions).toBe('object');
   });
 });
 
 describe('filtrarPorStatus', () => {
   it('é uma função', () => {
-    expect(typeof rickAndMorty.filtrarPorStatus).toBe('function');
+    expect(typeof dataFunctions.filtrarPorStatus).toBe('function');
 
   });
 
   it('filtra o status dos personagens mortos', () => {
-    const expectedStatus = rickAndMorty.filtrarPorStatus(arrayTest, "dead");
+    const expectedStatus = dataFunctions.filtrarPorStatus(arrayTest, "dead");
     expect(expectedStatus.length).toEqual(1);
     expect(expectedStatus).toEqual([arrayTest[3]]);
         
   });
 
   it('filtra o status dos personagens vivos', () => {
-    const expectedStatus = rickAndMorty.filtrarPorStatus(arrayTest, "alive");
+    const expectedStatus = dataFunctions.filtrarPorStatus(arrayTest, "alive");
     expect(expectedStatus.length).toEqual(3);
     expect(expectedStatus).toEqual([arrayTest[0],arrayTest[1],arrayTest[2]]);
   });
@@ -63,18 +61,18 @@ describe('filtrarPorStatus', () => {
 describe('filtrarPorEspecie', () => {
 
     it('é uma função', () => {
-      expect(typeof rickAndMorty.filtrarPorEspecie).toBe('function');
+      expect(typeof dataFunctions.filtrarPorEspecie).toBe('function');
    });
 
    it('filtra a espécie dos personagens alienígenas', () => {
-    const personagem = rickAndMorty.filtrarPorEspecie(arrayTest, "alien");
+    const personagem = dataFunctions.filtrarPorEspecie(arrayTest, "alien");
     expect(personagem.length).toEqual(1);
     expect(personagem).toEqual([arrayTest[3]]);
     
    });
 
    it('filtra a espécie dos personagens desconhecidos', () => {
-    const personagem = rickAndMorty.filtrarPorEspecie(arrayTest, "unknown");
+    const personagem = dataFunctions.filtrarPorEspecie(arrayTest, "unknown");
     expect(personagem.length).toEqual(1);
     expect(personagem).toEqual([arrayTest[1]]);
 
@@ -82,50 +80,47 @@ describe('filtrarPorEspecie', () => {
 
 });
 
-
 describe('filtrarPorGenero', () => {
   it('é uma função', () => {
-    expect(typeof rickAndMorty.filtrarPorGenero).toBe('function');
+    expect(typeof dataFunctions.filtrarPorGenero).toBe('function');
   });
 
 
   it('filtra o gênero dos personagens femininos', () => {
-    const personagem = rickAndMorty.filtrarPorGenero(arrayTest, "female");
+    const personagem = dataFunctions.filtrarPorGenero(arrayTest, "female");
     expect(personagem.length).toEqual(2);
     expect(personagem).toEqual([arrayTest[2],arrayTest[3]]);    
   });
 });
 
-
 describe('ordenar', () => {
   it('é uma função', () => {
-    expect(typeof rickAndMorty.ordenar).toBe('function');
+    expect(typeof dataFunctions.ordenar).toBe('function');
 
   });
 
   it('ordenar de forma crescente de A-Z', () => {
-    const personagem = rickAndMorty.ordenar(arrayTest, 'ascending')
+    const personagem = dataFunctions.ordenar(arrayTest, 'ascending')
     expect(personagem.length).toEqual(4); 
     expect(personagem).toEqual([arrayTest[2], arrayTest[1], arrayTest[0], arrayTest[3]]);
   });
      
   it('ordenar de forma decrescente de Z-A', () => {
-    const personagem = rickAndMorty.ordenar(arrayTest, 'descending')
+    const personagem = dataFunctions.ordenar(arrayTest, 'descending')
     expect(personagem.length).toEqual(4); 
     expect(personagem).toEqual([arrayTest[3], arrayTest[0], arrayTest[1], arrayTest[2]]);
   });
  
 });
 
-
 describe('buscarPorNome', () => {
 
   it('é uma função', () => {
-      expect(typeof rickAndMorty.buscarPorNome).toBe('function');
+      expect(typeof dataFunctions.buscarPorNome).toBe('function');
   });
 
   it('deve buscar por um nome', () => {
-      const personagens = rickAndMorty.buscarPorNome(arrayTest, "Rick");
+      const personagens = dataFunctions.buscarPorNome(arrayTest, "Rick");
       expect(personagens.length).toEqual(2);
   });
   
@@ -134,22 +129,20 @@ describe('buscarPorNome', () => {
 describe('calcularPorcentagem', () => {
 
   it('é uma função', () => {
-    expect(typeof rickAndMorty.calcularPorcentagem).toBe('function');
+    expect(typeof dataFunctions.calcularPorcentagem).toBe('function');
 
   });
 
   it('deve calcular a média dos personagens vivos', () => {
-    const porcentagem = rickAndMorty.calcularPorcentagem(arrayTest.length, 3);
+    const porcentagem = dataFunctions.calcularPorcentagem(arrayTest.length, 3);
     expect(porcentagem).toEqual(75);
 
   });
 
   it('deve calcular a média dos personagens mortos', () => {
-    const porcentagem = rickAndMorty.calcularPorcentagem(arrayTest.length, 1);
+    const porcentagem = dataFunctions.calcularPorcentagem(arrayTest.length, 1);
     expect(porcentagem).toEqual(25);
 
   });
 
 });
-
-
