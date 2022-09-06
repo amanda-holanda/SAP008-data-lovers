@@ -95,27 +95,20 @@ Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas 
 
 ## 5. Testes unitários
 
-
-Inicialmente, criou-se um array mock chamado de 'arrayTest' com o objetivo de simular um array para fazer os testes de forma mais prática.
+Inicialmente, criou-se um array mock chamado de `arrayTest` com o objetivo de simular um array para fazer os testes de forma mais prática.
 
 ### Teste do objeto `dataFunctions`: 
-Criou-se um teste para verificar se o objeto 'rickAndMorty', que contém todas as funções principais no data.js, é um objeto.
+Criou-se um teste para verificar se o objeto `dataFunctions`, que contém todas as funções principais no data.js, é um objeto.
 
-Logo depois, criou-se testes para as funções de filtro dos personagens por: status, gênero, espécie e busca por nome. 
+Logo depois, criou-se testes para a função de filtrar os personagens por: status, gênero, espécie e busca por nome. 
 
-### Teste de status: 
-Primeiramente, criou-se um teste para verificar se o filtro se tratava de uma função. Depois definiu-se um teste para verificar a quantidade de objetos que continham o status 'morto' na array mock. Logo depois, foi testado em qual posição os objetos que continham o status 'morto' se encontravam na array mock. Fizemos o mesmo para testar o status 'vivo'.
-
-### Teste de espécie: 
-Criou-se um teste para verificar se o filtro se tratava de uma função. Depois definiu-se um teste para verificar a quantidade de objetos que continham o espécie 'alien' na nossa array mock. Logo depois, foi testado em qual posição os objetos que continham o espécie 'alien'  se encontravam na array mock. Fizemos o mesmo para testar o status 'unknown'.
-
-### Teste de gênero: 
-Criou-se um teste para verificar se o filtro se tratava de uma função. Depois definiu-se um teste para verificar a quantidade de objetos que continham o gênero 'female' na array mock. Logo depois, foi testado em qual posição os objetos que continham o gênero 'female'  se encontravam na array mock. 
+### Teste de filtrar: 
+Primeiramente, criou-se um teste para verificar se a função filtrar se tratava de uma função. Depois, definiu-se um teste para verificar a quantidade de objetos que continham o status 'morto' na array mock. Logo depois, foi testado em qual posição os objetos que continham o status 'morto' se encontravam na array mock. Fizemos o mesmo para testar o status 'vivo'. Seguindo a mesma lógica, definiu-se um teste para verificar a quantidade de objetos que continham o espécie 'alien' na nossa array mock. Logo depois, foi testado em qual posição os objetos que continham o espécie 'alien' se encontravam na array mock. Fizemos o mesmo para testar o status 'unknown'. Por fim, definiu-se um teste para verificar a quantidade de objetos que continham o gênero 'female' na array mock. Logo depois, foi testado em qual posição os objetos que continham o gênero 'female' se encontravam na array mock. 
 
 ### Teste de buscar por nome: 
 Criou-se um teste para verificar se o filtro se tratava de uma função. Além disso, definiu-se um teste para verificar a quantidade de objetos que continham o nome 'Rick' na array mock.
 
-### Teste para ordenar: 
+### Teste de ordenar: 
 Criou-se um teste para verificar se a função de ordenar se tratava de uma função. Além disso, definiu-se um teste para verificar a quantidade de objetos que retornavam na array mock quando a função era chamada. Por fim, criou-se um teste para verificar os objetos que retornavam os nomes dos personagens em ordem alfabética de forma crescente e descrescente.
 
 ## 6. Testes de usabilidade
