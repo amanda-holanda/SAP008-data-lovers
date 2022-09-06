@@ -19,8 +19,7 @@ body {
     display:flex;    
     flex-wrap: wrap; 
     justify-content: center;    
-    align-items: center;
-    
+    align-items: center;    
 }
 
 header { 
@@ -33,7 +32,7 @@ header {
     font-family: monospace;
 }
 
-.nav {
+.nav-header {
     display: flex;
     justify-content: center;
 }
@@ -82,16 +81,9 @@ header {
     font-size: 0.9rem;
 }
 
-.btn-search {
-    background-color: var(--white);
-    border-radius: 20px;
-    border: none;
-    color: var(--dark-blue);
-    width: 10vw;
-    height: 40px;
-    margin: 0px 7px;     
-    font-size: 0.9rem;
-    text-align: center;   
+.search {
+    background-color: var(--white);             
+    font-size: 0.9rem;      
 }
 
 main {     
@@ -183,8 +175,6 @@ footer {
     opacity: 0.5;
 }
 
-/* ===== Responsividade para dispositivos móveis ===== */
-
 @media screen and (max-width: 480px)  { 
      
     .btn-option {
@@ -193,7 +183,7 @@ footer {
         font-size: 0.7rem;
     }
 
-    .btn-search {
+    .search {
         width: 25vw;
         font-size: 0.8rem;
     }
@@ -232,8 +222,6 @@ footer {
     }
 }
 
-/* ===== Responsividade para Ipads e tablets ===== */
-
 @media screen and (min-width: 481px) and (max-width: 768px) { 
 
     .btn-option {
@@ -246,7 +234,7 @@ footer {
         width: 23vw;
     }
 
-    .btn-search {
+    .search {
         width: 28vw;
     }
 
@@ -286,8 +274,6 @@ footer {
     }
 }
 
-/* ===== Responsividade para Telas pequenas e laptops ===== */
-
 @media screen and (min-width: 769px) and (max-width: 1024px) { 
 
     .btn-header {
@@ -305,7 +291,7 @@ footer {
 
     }
 
-    .btn-search {
+    .search {
         width: 13vw;
         margin: 0px 7px;
         font-size: 0.75rem;
