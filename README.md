@@ -98,7 +98,7 @@ Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas 
 
 Inicialmente, criou-se um array mock chamado de 'arrayTest' com o objetivo de simular um array para fazer os testes de forma mais prática.
 
-### Teste do objeto rickAndMorty: 
+### Teste do objeto `dataFunctions`: 
 Criou-se um teste para verificar se o objeto 'rickAndMorty', que contém todas as funções principais no data.js, é um objeto.
 
 Logo depois, criou-se testes para as funções de filtro dos personagens por: status, gênero, espécie e busca por nome. 
