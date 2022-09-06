@@ -38,6 +38,7 @@ describe('dataFunctions', () => {
 });
 
 describe('filtrar', () => {
+  
   it('é uma função', () => {
     expect(typeof dataFunctions.filtrar).toBe('function');
 
@@ -63,14 +64,14 @@ describe('filtrar', () => {
     
    });
 
-   it('filtra a espécie dos personagens desconhecidos', () => {
+  it('filtra a espécie dos personagens desconhecidos', () => {
     const personagem = dataFunctions.filtrar(arrayTest, "unknown", "species");
     expect(personagem.length).toEqual(1);
     expect(personagem).toEqual([arrayTest[1]]);
 
-   });
+  });
 
-   it('filtra o gênero dos personagens femininos', () => {
+  it('filtra o gênero dos personagens femininos', () => {
     const personagem = dataFunctions.filtrar(arrayTest, "female", "gender");
     expect(personagem.length).toEqual(2);
     expect(personagem).toEqual([arrayTest[2],arrayTest[3]]);    
@@ -79,6 +80,7 @@ describe('filtrar', () => {
 });
 
 describe('ordenar', () => {
+
   it('é uma função', () => {
     expect(typeof dataFunctions.ordenar).toBe('function');
 

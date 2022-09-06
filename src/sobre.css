@@ -118,9 +118,9 @@ ul li {
         width: 41vw;
         border-radius: 60px;
     }
- }
+}
 
- @media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .btn-header { 
         width: 30vw;
     }
@@ -133,9 +133,9 @@ ul li {
     .card-img {
         width: 55vw;        
     }
- }
+}
 
- @media screen and (min-width: 769px) and (max-width: 1024px) {    
+@media screen and (min-width: 769px) and (max-width: 1024px) {    
     .btn-header { 
         width: 25vw;
     }
@@ -154,7 +154,7 @@ ul li {
         font-size: 1.3rem; 
                 
     }
- }
+}
 
 
 
