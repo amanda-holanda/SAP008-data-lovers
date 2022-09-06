@@ -37,7 +37,7 @@ cardContainer.innerHTML = displayCards(characters);
 
 selectStatus.addEventListener('change', (event) => {
     const value = event.target.value;
-    const listaFiltrada = dataFunctions.filtrarPorStatus(characters, value);
+    const listaFiltrada = dataFunctions.filtrar(characters, value, "status");
     const cards = displayCards(listaFiltrada);
     cardContainer.innerHTML = cards;
 
@@ -48,7 +48,7 @@ selectStatus.addEventListener('change', (event) => {
 
 selectSpecies.addEventListener('change', (event) => {
     const value = event.target.value;
-    const listaFiltrada = dataFunctions.filtrarPorEspecie(characters, value);
+    const listaFiltrada = dataFunctions.filtrar(characters, value, "species");
     const cards = displayCards(listaFiltrada);
     cardContainer.innerHTML = cards;
 
@@ -59,7 +59,7 @@ selectSpecies.addEventListener('change', (event) => {
 
 selectGender.addEventListener('change', (event) => {
     const value = event.target.value;
-    const listaFiltrada = dataFunctions.filtrarPorGenero(characters, value);
+    const listaFiltrada = dataFunctions.filtrar(characters, value, "gender");
     const cards = displayCards(listaFiltrada);
     cardContainer.innerHTML = cards;
 

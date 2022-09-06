@@ -1,36 +1,15 @@
 const dataFunctions = {
     
-    filtrarPorStatus: function (characters, status) {
+    filtrar: function (characters, value, key) {
         const filtro = characters.filter(function(personagem) {        
-            const statusFiltrado = personagem.status.toLowerCase() === status;         
-            return statusFiltrado; 
+            const filtrado = personagem[key].toLowerCase() === value;         
+            return filtrado; 
 
         });             
 
         return filtro;  
-    },
-     
-    filtrarPorEspecie: function (characters, species) {
-        const filtro = characters.filter(function(personagem) {
-            const especieFiltrado = personagem.species.toLowerCase() === species;
-            return especieFiltrado;   
-
-        });
-
-        return filtro;
-        
-    },
-
-    filtrarPorGenero: function (characters, gender) {
-        const filtro = characters.filter(function(personagem) {
-            const generoFiltrado = personagem.gender.toLowerCase() === gender;
-            return generoFiltrado;
-
-        });
-        return filtro;
-
-    },
-
+    },    
+    
     ordenarCrescente: function(characters) {
         const ordem = characters.sort(function (a, b) {
             if (a.name > b.name) {
@@ -39,9 +18,9 @@ const dataFunctions = {
               return -1;
             }            
             
-          });          
-        return ordem;
+          });  
 
+        return ordem;
     },   
 
     ordenarDecrescente: function(characters) {
@@ -52,21 +31,20 @@ const dataFunctions = {
               return 1;
             }            
             
-          });          
-        return ordem;
+          });   
 
+        return ordem;
     },   
 
     ordenar: function(characters, sortBy) {        
         const copy = [...characters]; 
 
         if(sortBy === "ascending") {
-            return dataFunctions.ordenarCrescente(copy)
+            return dataFunctions.ordenarCrescente(copy);
         }
         else if(sortBy === "descending" ) {
-            return dataFunctions.ordenarDecrescente(copy)
+            return dataFunctions.ordenarDecrescente(copy);
         }
-
     },
 
     buscarPorNome: function (characters, name) {
@@ -77,10 +55,8 @@ const dataFunctions = {
         return filtro;
     }, 
        
-    calcularPorcentagem: function(tamanhoList, tamanhoListaFiltrada) {            
-
-        return Math.round((tamanhoListaFiltrada*100)/tamanhoList); 
-               
+    calcularPorcentagem: function(tamanhoList, tamanhoListaFiltrada) {    
+        return Math.round((tamanhoListaFiltrada*100)/tamanhoList);                
     }
     
 };  

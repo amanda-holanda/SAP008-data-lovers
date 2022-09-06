@@ -37,60 +37,45 @@ describe('dataFunctions', () => {
   });
 });
 
-describe('filtrarPorStatus', () => {
+describe('filtrar', () => {
   it('é uma função', () => {
-    expect(typeof dataFunctions.filtrarPorStatus).toBe('function');
+    expect(typeof dataFunctions.filtrar).toBe('function');
 
   });
 
   it('filtra o status dos personagens mortos', () => {
-    const expectedStatus = dataFunctions.filtrarPorStatus(arrayTest, "dead");
+    const expectedStatus = dataFunctions.filtrar(arrayTest, "dead", "status");
     expect(expectedStatus.length).toEqual(1);
     expect(expectedStatus).toEqual([arrayTest[3]]);
         
   });
 
   it('filtra o status dos personagens vivos', () => {
-    const expectedStatus = dataFunctions.filtrarPorStatus(arrayTest, "alive");
+    const expectedStatus = dataFunctions.filtrar(arrayTest, "alive", "status");
     expect(expectedStatus.length).toEqual(3);
     expect(expectedStatus).toEqual([arrayTest[0],arrayTest[1],arrayTest[2]]);
   });
 
-});
-
-describe('filtrarPorEspecie', () => {
-
-    it('é uma função', () => {
-      expect(typeof dataFunctions.filtrarPorEspecie).toBe('function');
-   });
-
-   it('filtra a espécie dos personagens alienígenas', () => {
-    const personagem = dataFunctions.filtrarPorEspecie(arrayTest, "alien");
+  it('filtra a espécie dos personagens alienígenas', () => {
+    const personagem = dataFunctions.filtrar(arrayTest, "alien", "species");
     expect(personagem.length).toEqual(1);
     expect(personagem).toEqual([arrayTest[3]]);
     
    });
 
    it('filtra a espécie dos personagens desconhecidos', () => {
-    const personagem = dataFunctions.filtrarPorEspecie(arrayTest, "unknown");
+    const personagem = dataFunctions.filtrar(arrayTest, "unknown", "species");
     expect(personagem.length).toEqual(1);
     expect(personagem).toEqual([arrayTest[1]]);
 
    });
 
-});
-
-describe('filtrarPorGenero', () => {
-  it('é uma função', () => {
-    expect(typeof dataFunctions.filtrarPorGenero).toBe('function');
-  });
-
-
-  it('filtra o gênero dos personagens femininos', () => {
-    const personagem = dataFunctions.filtrarPorGenero(arrayTest, "female");
+   it('filtra o gênero dos personagens femininos', () => {
+    const personagem = dataFunctions.filtrar(arrayTest, "female", "gender");
     expect(personagem.length).toEqual(2);
     expect(personagem).toEqual([arrayTest[2],arrayTest[3]]);    
   });
+
 });
 
 describe('ordenar', () => {
