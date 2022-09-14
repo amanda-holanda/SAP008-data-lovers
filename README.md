@@ -8,6 +8,7 @@
 * [4. Protótipos da interface](#4-protótipos-da-interface)
 * [5. Testes Unitários](#5-testes-unitários)
 * [6. Testes de Usabilidade](#6-testes-de-usabilidade)
+* [7. Autoras](#7-autoras)
 
 ***
 
@@ -127,3 +128,6 @@ No primeiro momento, criou-se o botão "Sobre" no cabeçalho da página principa
 
 ### Problema 4
 No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o objetivo do usuário, ao clicar na imagem, ser redirecionado para a página principal do site. Entretando, o usuário relatou que ficou confuso, pois ele não tinha a informação de que a imagem era clicável. Para solucionar esse problema, adicionamos um texto acima da imagem dizendo: "clique na imagem abaixo". Dessa forma, ficou mais claro para usuário de que ele deveria clicar na imagem para acessar a página principal do site.
+
+## 7. Autoras
+
