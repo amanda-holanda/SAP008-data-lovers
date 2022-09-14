@@ -130,6 +130,6 @@ No primeiro momento, criou-se o botão "Sobre" no cabeçalho da página principa
 No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o objetivo do usuário, ao clicar na imagem, ser redirecionado para a página principal do site. Entretando, o usuário relatou que ficou confuso, pois ele não tinha a informação de que a imagem era clicável. Para solucionar esse problema, adicionamos um texto acima da imagem dizendo: "clique na imagem abaixo". Dessa forma, ficou mais claro para usuário de que ele deveria clicar na imagem para acessar a página principal do site.
 
 ## 7. Sobre as Desenvolvedoras
-Projeto desenvolvido por Amanda Holanda [Linkedin]()|[GitHub](https://github.com/amanda-holanda) & Angélica Melo [Linkedin]()|[GitHub](https://github.com/AngelMelo12) <3.
+Projeto desenvolvido por Amanda Holanda [Linkedin](https://www.linkedin.com/in/amandaholanda/) | [GitHub](https://github.com/amanda-holanda) & Angélica Melo [Linkedin](https://www.linkedin.com/in/angellmelo/) | [GitHub](https://github.com/AngelMelo12) <3.
 
 
