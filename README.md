@@ -142,7 +142,28 @@ Confira [aqui](https://trello.com/invite/b/UBaN8oUj/ATTI5feb1a9a87e91b4909246243
 <img src="src/img/planning-trello.png" alt="planning trello" style="height: 300px" />
 
 ### 4.4 Ferramentas utilizadas
+
+* Figma;
+* Trello;
+* Metroretro;
+* Git;
+* GitHub;
+* Visual Studio Code;
+
 ### 4.5 Tech Skills
+
+* HTML5;
+* CSS3;
+* JavaScript;
+* Node.js;
+* Responsividade;
+* Jest;
+* Web APIs;
+* User-centricity;
+* Product Design
+* Research
+* Metodologias Ágeis
+
 ### 4.6 Objetivos de aprendizagem
 #### HTML: 
 * Uso de HTML semântico
