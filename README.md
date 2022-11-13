@@ -1,6 +1,6 @@
 <div align="center">
   
-  <img src="src/img/" alt="Rick and Morty Portal" />
+  <img src="src/img/portal.png" alt="Rick and Morty Portal" style="height: 200px" />
 
   # Rick and Morty - Projeto Data Lovers
   
