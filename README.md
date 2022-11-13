@@ -143,7 +143,7 @@ No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o
 
 ### 4.3 Planejamento
 ### 4.4 Ferramentas utilizadas
-## 4.5 Tech Skills
+### 4.5 Tech Skills
 
 ## 5. Sobre as Desenvolvedoras
 Projeto desenvolvido por:
