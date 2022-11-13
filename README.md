@@ -27,7 +27,6 @@
 * [3. Desenho da Interface de Usuário](#3-desenho-da-interface-de-usuário)
   * [3.1 Protótipo de baixa fidelidade](#31-protótipo-de-baixa-fidelidade)
   * [3.2 Protótipos de alta fidelidade](#32-protótipos-de-alta-fidelidade)
-* [3. Protótipos da interface](#3-protótipos-da-interface)
 * [4. Considerações Técnicas](#4-considerações-técnicas)
   * [4.1 Testes Unitários](#41-testes-unitários)
   * [4.2 Testes de Usabilidade](#42-testes-de-usabilidade)
@@ -71,7 +70,6 @@ A partir dessa história, criou-se a funcionalidade de exibir a porcentagem dos 
 ### História 4:  “Como fã de Rick and Morty, gostaria muito de encontrar os nomes dos personagens com facilidade, pois tenho muita dificuldade em memorizá-los.”
 
 A partir dessa história, criou-se a funcionalidade de caixa de pesquisa na qual permite o usuário pesquisar o seu personagem pelo nome. Definiu-se que essa história estava finalizada quando, ao escrever o nome de um personagem na caixa de pesquisa, os cards referentes ao nome pesquisado eram exibidos na tela do navegador.
-
 
 ## 3. Desenho da Interface de Usuário
 
