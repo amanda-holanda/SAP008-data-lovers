@@ -176,7 +176,7 @@ Confira [aqui](https://trello.com/invite/b/UBaN8oUj/ATTI5feb1a9a87e91b4909246243
 #### Web APIs
 * Uso de seletores de DOM
 * Manipulação de eventos de DOM (<i>Objeto Event: EventTarget.addEventListener(), EventTarget.removeEventListener() </i>)
-* Manipulação dinâmica de DOM (<i>, Element.innerHTML</i>)
+* Manipulação dinâmica de DOM (<i>Element.innerHTML</i>)
 
 #### JavaScript
 * Diferenciar entre tipos de dados primitivos e não primitivos
