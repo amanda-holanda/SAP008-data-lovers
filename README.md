@@ -88,11 +88,15 @@ Após definir as histórias de usuário, criou-se um protótipo de baixa fidelid
 
 Os protótipos de alta fidelidade foram desenvolvidos utilizando a ferramenta <i>Figma</i>:
 
-<img src="src/img/prototipo-pagina-inicial.png" alt="protipo alta fidelidade" style="height: 300px" />
-<img src="src/img/prototipo-pagina-principal.png" alt="protipo alta fidelidade" style="height: 300px" />
+<div display="flex">
+
+<img src="src/img/prototipo-pagina-inicial.png" alt="protipo alta fidelidade" style="height: 280px" />
+<img src="src/img/prototipo-pagina-principal.png" alt="protipo alta fidelidade" style="height: 280px" />
+
+</div>
 
 * **Paleta de Cores**:
-<img src="src/img/paleta-de-cores.png" alt="paleta de cores" style="height: 200px" />
+<img src="src/img/paleta-de-cores.png" alt="paleta de cores" style="height: 100px" />
 
 ## 4. Considerações Técnicas
 
