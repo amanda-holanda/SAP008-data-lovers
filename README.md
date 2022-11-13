@@ -136,6 +136,9 @@ No primeiro momento, criou-se o botão "Sobre" no cabeçalho da página principa
 No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o objetivo do usuário, ao clicar na imagem, ser redirecionado para a página principal do site. Entretando, o usuário relatou que ficou confuso, pois ele não tinha a informação de que a imagem era clicável. Para solucionar esse problema, adicionamos um texto acima da imagem dizendo: "clique na imagem abaixo". Dessa forma, ficou mais claro para usuário de que ele deveria clicar na imagem para acessar a página principal do site.
 
 ### 4.3 Planejamento
+
+Confira [aqui](https://trello.com/invite/b/UBaN8oUj/ATTI5feb1a9a87e91b490924624308ac9985CD772BA9/datalovers-rickmorty) todo o nosso planejamento, que foi realizado utilizando a ferramenta **Trello** e as **Metodologias Ágeis**.
+
 ### 4.4 Ferramentas utilizadas
 ### 4.5 Tech Skills
 ### 4.6 Objetivos de aprendizagem
