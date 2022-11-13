@@ -56,19 +56,23 @@ Iniciou-se o projeto fazendo uma pesquisa sobre o usuário. Concluiu-se que os p
 
 Determinamos quatro (4) histórias de usuário:
 
-### História 1: "Como fã da série, gostaria de poder visualizar todos os personagens da série para que eu consiga ter acesso as suas principais características de forma mais fácil."
+### História 1: 
+> <i>"Como fã da série, gostaria de poder visualizar todos os personagens da série para que eu consiga ter acesso as suas principais características de forma mais fácil."</i>
 
 A partir dessa história, criou-se a funcionalidade de exibir os cards dos personagens na tela. Definiu-se que essa história estava finalizada quando os cards de todos os personagens foram printados na tela do navegador.
 
-### História 2: “Como fã da série, gostaria de saber quais personagens são alienígenas, pois eu amo ficção científica.”
+### História 2: 
+> <i>“Como fã da série, gostaria de saber quais personagens são alienígenas, pois eu amo ficção científica.”</i>
 
 A partir dessa história, criou-se a funcionalidade do botão espécie, na qual o usuário pode verificar quais espécies pertencem aos personagens. Definiu-se que essa história estava pronta quando os cards dos personagens filtrados por espécie (alienígena, humano e desconhecido) foram exibidos na tela do navegador.
 
-### História 3: “Eu como estudante de Ciências Sociais, gostaria de saber a média de personagens femininas que existem na série para colocar nos dados do meu TCC.”
+### História 3: 
+> <i>“Eu como estudante de Ciências Sociais, gostaria de saber a média de personagens femininas que existem na série para colocar nos dados do meu TCC.”</i>
 
 A partir dessa história, criou-se a funcionalidade de exibir a porcentagem dos personagens na tela de acordo com o filtro escolhido. Definiu-se que essa história estava finalizada quando foi exibido na tela do navegador a média dos personagens com base no filtro selecionado.
 
-### História 4:  “Como fã de Rick and Morty, gostaria muito de encontrar os nomes dos personagens com facilidade, pois tenho muita dificuldade em memorizá-los.”
+### História 4:
+> <i>“Como fã de Rick and Morty, gostaria muito de encontrar os nomes dos personagens com facilidade, pois tenho muita dificuldade em memorizá-los.”</i>
 
 A partir dessa história, criou-se a funcionalidade de caixa de pesquisa na qual permite o usuário pesquisar o seu personagem pelo nome. Definiu-se que essa história estava finalizada quando, ao escrever o nome de um personagem na caixa de pesquisa, os cards referentes ao nome pesquisado eram exibidos na tela do navegador.
 
