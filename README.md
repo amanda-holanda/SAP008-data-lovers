@@ -1,13 +1,40 @@
-# Data Lovers
+<div align="center">
+
+  # Rick and Morty - Projeto Data Lovers
+  
+ <br>
+
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="height: 30px;"/>
+
+  <br>
+  
+  **Status do Projeto:** _Concluído_ 
+
+  Confira o resultado do projeto [aqui](https://amanda-holanda.github.io/SAP008-data-lovers/) 
+  
+</div>
 
 ## Índice
 
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Histórias de usuário](#2-histórias-do-usuário)
+* [3. Desenho da Interface de Usuário](#3-desenho-da-interface-de-usuário)
+  * [3.1 Protótipo de baixa fidelidade](#31-protótipo-de-baixa-fidelidade)
+  * [3.2 Protótipos de alta fidelidade](#32-protótipos-de-alta-fidelidade)
 * [3. Protótipos da interface](#3-protótipos-da-interface)
-* [4. Testes Unitários](#4-testes-unitários)
-* [5. Testes de Usabilidade](#5-testes-de-usabilidade)
-* [6. Sobre as Desenvolvedoras](#6-sobre-as-desenvolvedoras)
+* [4. Considerações Técnicas](#4-considerações-técnicas)
+  * [4.1 Testes Unitários](#41-testes-unitários)
+  * [4.2 Testes de Usabilidade](#42-testes-de-usabilidade)
+  * [4.3 Planejamento](#43-planejamento)
+  * [4.4 Ferramentas utilizadas](#44-ferramentas-utilizadas)
+  * [4.5 Tech Skills](#45-tech-skills)
+* [5. Sobre as Desenvolvedoras](#5-sobre-as-desenvolvedoras)
 
 ***
 
@@ -46,12 +73,15 @@ A partir dessa história, criou-se a funcionalidade de exibir a porcentagem dos 
 A partir dessa história, criou-se a funcionalidade de caixa de pesquisa na qual permite o usuário pesquisar o seu personagem pelo nome. Definiu-se que essa história estava finalizada quando, ao escrever o nome de um personagem na caixa de pesquisa, os cards referentes ao nome pesquisado eram exibidos na tela do navegador.
 
 
-## 3. Protótipos da interface
+## 3. Desenho da Interface de Usuário
 
+### 3.1 Protótipo de baixa fidelidade
 
 Após definir as histórias de usuário, criou-se um protótipo de baixa fidelidade como consta na imagem abaixo:
 
 ![img](prototipobaixafidelidade.png)
+
+### 3.2 Protótipos de alta fidelidade
 
 Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas imagens abaixo:
 
@@ -74,8 +104,9 @@ Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas 
 
 ![img](desktop-versão-inicial-final.png)
 
+## 4. Considerações Técnicas
 
-## 4. Testes unitários
+### 4.1 Testes unitários
 
 Inicialmente, criou-se um array mock chamado de `arrayTest` com o objetivo de simular um array para construir os testes de forma mais prática.
 
@@ -94,7 +125,7 @@ Criou-se um teste para verificar se a função `buscarPorNome` se trata de uma f
 ### Teste de calcular a porcentagem:
 Criou-se um teste para verificar se a função `calcularPorcentagem` se trata de uma função. Além disso, definiu-se um teste para verificar o câlculo da média dos porcentagens vivos e mortos da array mock.
 
-## 5. Testes de usabilidade
+### 4.2 Testes de usabilidade
 
 A seguir estão os 4 (quatro) principais problemas detectados por usuários durante o processo de construção do projeto e como os mesmos foram solucionados.
 
@@ -110,7 +141,13 @@ No primeiro momento, criou-se o botão "Sobre" no cabeçalho da página principa
 ### Problema 4
 No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o objetivo do usuário, ao clicar na imagem, ser redirecionado para a página principal do site. Entretando, o usuário relatou que ficou confuso, pois ele não tinha a informação de que a imagem era clicável. Para solucionar esse problema, adicionamos um texto acima da imagem dizendo: "clique na imagem abaixo". Dessa forma, ficou mais claro para usuário de que ele deveria clicar na imagem para acessar a página principal do site.
 
-## 6. Sobre as Desenvolvedoras
-Projeto desenvolvido por Amanda Holanda [Linkedin](https://www.linkedin.com/in/amandaholanda/) | [GitHub](https://github.com/amanda-holanda) & Angélica Melo [Linkedin](https://www.linkedin.com/in/angellmelo/) | [GitHub](https://github.com/AngelMelo12).
+### 4.3 Planejamento
+### 4.4 Ferramentas utilizadas
+## 4.5 Tech Skills
+
+## 5. Sobre as Desenvolvedoras
+Projeto desenvolvido por:
+* Amanda Holanda [Linkedin](https://www.linkedin.com/in/amandaholanda/) | [GitHub](https://github.com/amanda-holanda)
+* Angélica Melo [Linkedin](https://www.linkedin.com/in/angellmelo/) | [GitHub](https://github.com/AngelMelo12).
 
 
