@@ -88,21 +88,8 @@ Após definir as histórias de usuário, criou-se um protótipo de baixa fidelid
 
 Os protótipos de alta fidelidade foram desenvolvidos utilizando a ferramenta <i>Figma</i>:
 
-### Protótipo de alta fidelidade da tela de início - Mobile, Tablet e Desktop:
-
-<img src="src/img/page-inicio-mobile-tablet-desktop.png" alt="protipo alta fidelidade" style="height: 300px" />
-
-### Protótipo de alta fidelidade - Mobile:
-
-<img src="src/img/mobile-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
-
-### Protótipo de alta fidelidade - Tablet:
-
-<img src="src/img/tablet-versão-final.png" alt="protipo alta fidelidade" style="height: 300px" />
-
-### Protótipo de alta fidelidade - Desktop:
-
-<img src="src/img/desktop-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
+<img src="src/img/prototipo-pagina-inicial.png" alt="protipo alta fidelidade" style="height: 300px" />
+<img src="src/img/prototipo-pagina-principal.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 * **Paleta de Cores**:
 <img src="src/img/paleta-de-cores.png" alt="paleta de cores" style="height: 200px" />
