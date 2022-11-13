@@ -42,33 +42,31 @@
 
 ## 1. Resumo do projeto
 
-Neste projeto criou-se um site dedicado aos fãs de Rick and Morty com o objetivo de catalogar todos os personagens da série. Dessa forma, o
+O projeto Data Lovers foi o terceiro projeto desenvolvido no bootcamp da [Laboratoria](https://www.laboratoria.la/br). O seu principal objetivo era construir **uma página web para visualizar um conjunto (set) de dados que se adequasse às necessidades do usuário**. Como entregável final, a página web deveria permitir: **visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado**. Além disso, foi disponibilizado uma série de dados de temáticas diferentes e a dupla deveria escolher o seu tema preferido para desenvolver o projeto.
+
+A partir disso, desenvolveu-se um site dedicado aos fãs de Rick and Morty com o objetivo de catalogar todos os personagens da série. Dessa forma, o
 usuário consegue encontrar os seus personagens favoritos e obter mais informações sobre eles de maneira fácil e prática.
 
 Iniciou-se o projeto fazendo uma pesquisa sobre o usuário. Concluiu-se que os principais objetivos do usuário em relação ao produto são:
 
-A) Obter mais informações sobre seus personagens favoritos, principalmente sobre seu: nome, gênero, local de origem, espécie, imagem em quantos episódios aparecem e números de episódios;
-
-B) Entretenimento: Utilizam o produto quando querem dar risada, sair um pouco da realidade ou usar o som da série como fundo musical.
+* Obter mais informações sobre seus personagens favoritos, principalmente sobre seu: nome, gênero, local de origem, espécie, imagem, em quantos episódios eles aparecem e o número dos episódios;
+* Entretenimento: Utilizam o produto quando querem se divertir, sair um pouco da realidade ou usar o som da série como fundo musical.
 
 ## 2. Histórias do usuário
 
-Iniciou-se o projeto determinando quatro (4) histórias de usuário:
+Determinamos quatro (4) histórias de usuário:
 
 ### História 1: "Como fã da série, gostaria de poder visualizar todos os personagens da série para que eu consiga ter acesso as suas principais características de forma mais fácil."
 
 A partir dessa história, criou-se a funcionalidade de exibir os cards dos personagens na tela. Definiu-se que essa história estava finalizada quando os cards de todos os personagens foram printados na tela do navegador.
 
-
 ### História 2: “Como fã da série, gostaria de saber quais personagens são alienígenas, pois eu amo ficção científica.”
 
 A partir dessa história, criou-se a funcionalidade do botão espécie, na qual o usuário pode verificar quais espécies pertencem aos personagens. Definiu-se que essa história estava pronta quando os cards dos personagens filtrados por espécie (alienígena, humano e desconhecido) foram exibidos na tela do navegador.
 
-
 ### História 3: “Eu como estudante de Ciências Sociais, gostaria de saber a média de personagens femininas que existem na série para colocar nos dados do meu TCC.”
 
 A partir dessa história, criou-se a funcionalidade de exibir a porcentagem dos personagens na tela de acordo com o filtro escolhido. Definiu-se que essa história estava finalizada quando foi exibido na tela do navegador a média dos personagens com base no filtro selecionado.
-
 
 ### História 4:  “Como fã de Rick and Morty, gostaria muito de encontrar os nomes dos personagens com facilidade, pois tenho muita dificuldade em memorizá-los.”
 
@@ -78,13 +76,13 @@ A partir dessa história, criou-se a funcionalidade de caixa de pesquisa na qual
 
 ### 3.1 Protótipo de baixa fidelidade
 
-Após definir as histórias de usuário, criou-se um protótipo de baixa fidelidade como consta na imagem abaixo:
+Após definir as histórias de usuário, criou-se um protótipo de baixa fidelidade:
 
-<img src="src/img/prototipobaixafidelidade.png" alt="Prototipo de Baixa Fidelidade" style="height: 200px" />
+<img src="src/img/prototipobaixafidelidade.png" alt="Prototipo de Baixa Fidelidade" style="height: 300px" />
 
 ### 3.2 Protótipos de alta fidelidade
 
-Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas imagens abaixo:
+Os protótipos de alta fidelidade foram desenvolvidos utilizando a ferramenta <i>Figma</i>:
 
 ### Protótipo de alta fidelidade da tela de início - Mobile, Tablet e Desktop:
 
@@ -101,6 +99,9 @@ Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas 
 ### Protótipo de alta fidelidade - Desktop:
 
 <img src="src/img/desktop-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
+
+* **Paleta de Cores**:
+
 
 ## 4. Considerações Técnicas
 
