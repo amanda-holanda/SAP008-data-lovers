@@ -171,30 +171,35 @@ Confira [aqui](https://trello.com/invite/b/UBaN8oUj/ATTI5feb1a9a87e91b4909246243
 #### CSS:
 * Uso de seletores de CSS;
 * Empregar o modelo de caixa (box model): borda, margem, preenchimento;
+* Uso de flexbox em CSS
 
 #### Web APIs
 * Uso de seletores de DOM
-* Manipulação de eventos de DOM
-* Manipulação dinâmica de DOM
+* Manipulação de eventos de DOM (<i>Objeto Event: EventTarget.addEventListener(), EventTarget.removeEventListener() </i>)
+* Manipulação dinâmica de DOM (<i>, Element.innerHTML</i>)
 
 #### JavaScript
-* Tipos de dados primitivos
-* Strings (cadeias de caracteres)
+* Diferenciar entre tipos de dados primitivos e não primitivos
+* Manipular arrays (filter, map, sort, reduce)
+* Manipular objects (key | value)
 * Variáveis (declaração, atribuição, escopo)
 * Uso de condicionais (if-else)
 * Uso de laços (for, for..of)
 * Uso de funções (parâmetros, argumentos, valor de retorno)
-* Testes unitários
-* Módulos de ECMAScript (ES modules)
+* Testes unitários (Introdução ao Jest)
+* Módulos de ECMAScript (ES modules: import, export)
 * Uso de linter (ESLINT)
 * Uso de identificadores descritivos (Nomenclatura | Semântica)
+* Diferença entre expression e statements
 
 #### Controle de Versões (Git e GitHub)
 
 * Git: Instalação e configuração
 * Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
+* Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
 * GitHub: Criação de contas e repositórios, configuração de chave SSH
 * GitHub: Implantação com GitHub Pages
+* GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
 
 #### user-centricity
 
