@@ -105,7 +105,7 @@ Os protótipos de alta fidelidade foram desenvolvidos utilizando a ferramenta <i
 <img src="src/img/desktop-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 * **Paleta de Cores**:
-
+<img src="src/img/paleta-de-cores.png" alt="paleta de cores" style="height: 200px" />
 
 ## 4. Considerações Técnicas
 
