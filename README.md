@@ -139,6 +139,8 @@ No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o
 
 Confira [aqui](https://trello.com/invite/b/UBaN8oUj/ATTI5feb1a9a87e91b490924624308ac9985CD772BA9/datalovers-rickmorty) todo o nosso planejamento, que foi realizado utilizando a ferramenta **Trello** e as **Metodologias Ágeis**.
 
+<img src="src/img/planning-trello.png" alt="planning trello" style="height: 300px" />
+
 ### 4.4 Ferramentas utilizadas
 ### 4.5 Tech Skills
 ### 4.6 Objetivos de aprendizagem
