@@ -35,6 +35,7 @@
   * [4.3 Planejamento](#43-planejamento)
   * [4.4 Ferramentas utilizadas](#44-ferramentas-utilizadas)
   * [4.5 Tech Skills](#45-tech-skills)
+  * [4.6 Objetivos de aprendizagem](#46-objetivos-de-aprendizagem)
 * [5. Sobre as Desenvolvedoras](#5-sobre-as-desenvolvedoras)
 
 ***
@@ -141,6 +142,46 @@ No primeiro momento, adicionou-se uma imagem clicável na página inicial, com o
 ### 4.3 Planejamento
 ### 4.4 Ferramentas utilizadas
 ### 4.5 Tech Skills
+### 4.6 Objetivos de aprendizagem
+#### HTML: 
+* Uso de HTML semântico
+
+#### CSS:
+* Uso de seletores de CSS;
+* Empregar o modelo de caixa (box model): borda, margem, preenchimento;
+
+#### Web APIs
+* Uso de seletores de DOM
+* Manipulação de eventos de DOM
+* Manipulação dinâmica de DOM
+
+#### JavaScript
+* Tipos de dados primitivos
+* Strings (cadeias de caracteres)
+* Variáveis (declaração, atribuição, escopo)
+* Uso de condicionais (if-else)
+* Uso de laços (for, for..of)
+* Uso de funções (parâmetros, argumentos, valor de retorno)
+* Testes unitários
+* Módulos de ECMAScript (ES modules)
+* Uso de linter (ESLINT)
+* Uso de identificadores descritivos (Nomenclatura | Semântica)
+
+#### Controle de Versões (Git e GitHub)
+
+* Git: Instalação e configuração
+* Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
+* GitHub: Criação de contas e repositórios, configuração de chave SSH
+* GitHub: Implantação com GitHub Pages
+
+#### user-centricity
+
+* Desenhar a aplicação pensando e entendendo a usuária
+
+#### product-design
+
+* Criar protótipos para obter feedback e iterar
+* Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
 ## 5. Sobre as Desenvolvedoras
 Projeto desenvolvido por:
