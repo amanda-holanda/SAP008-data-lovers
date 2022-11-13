@@ -79,7 +79,7 @@ A partir dessa história, criou-se a funcionalidade de caixa de pesquisa na qual
 
 Após definir as histórias de usuário, criou-se um protótipo de baixa fidelidade como consta na imagem abaixo:
 
-![img](prototipobaixafidelidade.png)
+<img src="src/img/prototipobaixafidelidade.png" alt="Prototipo de Baixa Fidelidade" style="height: 200px" />
 
 ### 3.2 Protótipos de alta fidelidade
 
@@ -87,22 +87,19 @@ Logo depois, criou-se no Figma um protótipo de alta fidelidade como consta nas 
 
 ### Protótipo de alta fidelidade da tela de início - Mobile, Tablet e Desktop:
 
-![img](page-inicio-mobile-tablet-desktop.png)
-
+<img src="src/img/page-inicio-mobile-tablet-desktop.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 ### Protótipo de alta fidelidade - Mobile:
 
-![img](mobile-versão-inicial-final.png)
-
+<img src="src/img/mobile-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 ### Protótipo de alta fidelidade - Tablet:
 
-![img](tablet-versão-final.png)
-
+<img src="src/img/tablet-versão-final.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 ### Protótipo de alta fidelidade - Desktop:
 
-![img](desktop-versão-inicial-final.png)
+<img src="src/img/desktop-versão-inicial-final.png" alt="protipo alta fidelidade" style="height: 300px" />
 
 ## 4. Considerações Técnicas
 
