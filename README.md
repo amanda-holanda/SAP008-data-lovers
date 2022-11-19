@@ -42,7 +42,7 @@
 
 ## 1. Resumo do projeto
 
-O projeto Data Lovers foi o terceiro projeto desenvolvido no bootcamp da [Laboratoria](https://www.laboratoria.la/br). O seu principal objetivo era construir **uma página web para visualizar um conjunto (set) de dados que se adequasse às necessidades do usuário**. Como entregável final, a página web deveria permitir: **visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado**. Além disso, foi disponibilizado uma série de dados de temáticas diferentes e a dupla deveria escolher o seu tema preferido para desenvolver o projeto.
+O projeto Data Lovers foi o segundo  projeto desenvolvido no bootcamp da [Laboratoria](https://www.laboratoria.la/br). O seu principal objetivo era construir **uma página web para visualizar um conjunto (set) de dados que se adequasse às necessidades do usuário**. Como entregável final, a página web deveria permitir: **visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado**. Além disso, foi disponibilizado uma série de dados de temáticas diferentes e a dupla deveria escolher o seu tema preferido para desenvolver o projeto.
 
 A partir disso, desenvolveu-se um site dedicado aos fãs de Rick and Morty com o objetivo de catalogar todos os personagens da série. Dessa forma, o
 usuário consegue encontrar os seus personagens favoritos e obter mais informações sobre eles de maneira fácil e prática.
